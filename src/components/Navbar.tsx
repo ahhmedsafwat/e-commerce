@@ -8,7 +8,11 @@ export const Navbar = ()=>{
         
         <header className="p-10 flex justify-between items-center">
             <Link to={"/"} className="text-2xl font-bold ">SHOP.CO </Link>
-            <a>Shop</a>
+            <select>
+                <option>Shop</option>
+                <option>Hoodie</option>
+                <option>jeans</option>
+            </select>
             <a>New Arrivals</a>
             <a>Brands</a>
             <input type="search" placeholder="Search For Product..." 
