@@ -1,5 +1,5 @@
-export const Cart = ()=>{
-    return(
-        <h1 className=" text-orange-600">Your Cart</h1>
-    )
-}
+const Cart = () => {
+  return <div>cart</div>;
+};
+
+export default Cart;

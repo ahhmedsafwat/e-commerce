@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("./assets/fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("./assets/fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("./assets/fonts/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "intergralcf-bold";
+  src: url("./assets/fonts/integralcf-bold.otf");
+  font-weight: 700;
+}
