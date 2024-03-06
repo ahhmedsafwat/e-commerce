@@ -8,13 +8,7 @@ const Navitems = () => {
       <Link to={"/"}>
         <img src={Logo} alt="Logo"></img>
       </Link>
-      <Link to={""}>
-      <div className="ml-10 flex">
-        <select className="navbar-item mx-3">
-        <img src={Logo} alt="Logo" className="min-w-40"></img>
-        </select>
-        </div>
-      </Link>
+
       <div className="ml-10 flex">
         <select className="navbar-item">
           <option value={"shope"}>Shop</option>
