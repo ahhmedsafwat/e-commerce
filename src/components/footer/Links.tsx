@@ -4,9 +4,9 @@ import Logo from "../../assets/images/logo.svg";
 
 const Links = () => {
   return (
-    <div>
+    <div className="min-w-40">
       <Link to={"/"}>
-        <img className="min-w-32 md:min-w-40 pb-10" src={Logo} alt="Logo"></img>
+        <img className="pb-10" src={Logo} alt="Logo"></img>
       </Link>
       <p className="w-60 text-sm text-gray-600 font-satoshireguler ">
         We have clothes that suits your style and which you’re proud to wear.
@@ -15,16 +15,16 @@ const Links = () => {
 
       <ul className="flex pt-10 text-2xl ">
         <li className="social-box group">
-          <LuFacebook className="social-icon  group-hover:stroke-0 group-hover:fill-white " />
+          <LuFacebook className="social-icon  group-hover:stroke-0  " />
         </li>
         <li className="social-box group">
-          <LuGithub className="social-icon  group-hover:stroke-0 group-hover:fill-white" />
+          <LuGithub className="social-icon  group-hover:stroke-0 " />
         </li>
         <li className="social-box group transition ">
-          <LuInstagram className="social-icon group-hover:fill-white" />
+          <LuInstagram className="social-icon " />
         </li>
         <li className="social-box group">
-          <LuTwitter className="social-icon  group-hover:stroke-0 group-hover:fill-white" />
+          <LuTwitter className="social-icon  group-hover:stroke-0 " />
         </li>
       </ul>
     </div>

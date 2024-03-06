@@ -1,7 +1,11 @@
 .social-icon {
-  @apply size-5;
+  @apply size-5 group-hover:fill-white;
 }
 
 .social-box {
   @apply mr-3 p-2 transition duration-300 cursor-pointer bg-white border border-solid border-gray-300 rounded-full hover:bg-secondory;
+}
+
+.footer-item {
+  @apply pb-5 m-0 font-satoshireguler text-gray-500 cursor-pointer;
 }
