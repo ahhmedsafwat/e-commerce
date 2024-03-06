@@ -3,6 +3,7 @@ import { Home } from "./pages/Home";
 import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar/Navbar";
 import Offer from "./components/Navbar/Offer";
+import { Footer } from "./components/Navbar/Footer";
 const App = () => {
   return (
     <div className="App ">
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           {/* <Route path="/signup"  element={}> */}
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

@@ -7,6 +7,7 @@ const Navbar = () => {
       <Navitems />
       <Links />
     </header>
+
   );
 };
 

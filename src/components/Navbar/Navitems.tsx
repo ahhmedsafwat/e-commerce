@@ -9,14 +9,14 @@ const Navitems = () => {
         <img src={Logo} alt="Logo"></img>
       </Link>
       <div className="ml-10 flex">
-        <select className="navbar-item">
+        <select className="navbar-item mx-3">
           <option value={"shope"}>Shop</option>
           <option value={"hoodie"}>Hoodie</option>
           <option value={"jeans"}>jeans</option>
         </select>
-        <a className="navbar-item">On Sale</a>
-        <a className="navbar-item">New Arrivals</a>
-        <a className="navbar-item">Brands</a>
+        <a className="navbar-item mx-3">On Sale</a>
+        <a className="navbar-item mx-3">New Arrivals</a>
+        <a className="navbar-item mx-3">Brands</a>
       </div>
     </div>
   );
