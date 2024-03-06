@@ -6,7 +6,7 @@ const Navitems = () => {
   return (
     <div className="flex  items-center w-[45%]">
       <Link to={"/"}>
-        <img src={Logo} alt="Logo"></img>
+        <img src={Logo} alt="Logo" className="min-w-40"></img>
       </Link>
       <div className="ml-10 flex">
         <select className="navbar-item">
