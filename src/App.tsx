@@ -4,7 +4,7 @@ import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar/Navbar";
 import Offer from "./components/Navbar/Offer";
 
-import { Footer } from "./components/Navbar/Footer";
+import { Footer } from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -17,8 +17,7 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           {/* <Route path="/signup"  element={}> */}
         </Routes>
-        <Footer/>
-
+        <Footer />
       </Router>
     </div>
   );

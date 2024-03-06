@@ -1,4 +1,3 @@
 .navbar-item {
-
-  @apply font-satoshireguler block cursor-pointer;
+  @apply block cursor-pointer font-satoshireguler mx-3;
 }

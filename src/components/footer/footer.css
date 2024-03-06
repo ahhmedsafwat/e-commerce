@@ -1,0 +1,7 @@
+.social-icon {
+  @apply size-5;
+}
+
+.social-box {
+  @apply mr-3 p-2 transition duration-300 cursor-pointer bg-white border border-solid border-gray-300 rounded-full hover:bg-secondory;
+}

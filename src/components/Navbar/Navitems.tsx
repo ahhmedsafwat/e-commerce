@@ -4,9 +4,9 @@ import "./navbar.css";
 
 const Navitems = () => {
   return (
-    <div className="flex  items-center w-[45%]">
+    <div className="flex  items-center">
       <Link to={"/"}>
-        <img src={Logo} alt="Logo"></img>
+        <img className="min-w-32 md:min-w-40 " src={Logo} alt="Logo"></img>
       </Link>
 
       <div className="ml-10 flex">
@@ -15,17 +15,11 @@ const Navitems = () => {
           <option value={"hoodie"}>Hoodie</option>
           <option value={"jeans"}>jeans</option>
         </select>
-
-        <a className="navbar-item mx-3">On Sale</a>
-        <a className="navbar-item mx-3">New Arrivals</a>
-        <a className="navbar-item mx-3">Brands</a>
-
         <a className="navbar-item">On Sale</a>
         <a className="navbar-item">New Arrivals</a>
         <a className="navbar-item">Brands</a>
       </div>
     </div>
-    
   );
 };
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Links = () => {
   return (
-    <div className="flex w-[55%] items-center justify-between">
+    <div className="flex w-1/2 items-center justify-between">
       <div className="w-full mr-10 relative">
         <LuSearch
           className="absolute z-10 opacity-[.4] top-2 left-3 "
