@@ -19,13 +19,13 @@ export const HamMenu= ()=>{
         
         <>
         <div className='relative w-full hidden md:block'>
-            <div className='hidden md:block z-20 absolute bg-slate-600 w-64 md:left-[-64px] top-[15px] rounded-lg mad:left-[-40px]' style={{padding: menuCklick ? '20px' : '0' }}>
+            <div className='hidden md:block z-20 absolute bg-slate-600 w-64 md:left-[-64px] top-[15px] rounded-lg mad:left-[-40px] ease-linear duration-500' style={{padding: menuCklick ? '20px' : '0' }}>
             {menuCklick && items}
             </div>
         </div>
         
         <button onClick={handelMenu}>
-            {!menuCklick ? <div><AlignJustify className="text-2xl hidden md:block md:mr-4 cursor-pointer"/></div> : <div><ChevronLeft className="text-2xl hidden md:block md:mr-4 cursor-pointer"/></div>}
+            {!menuCklick ? <div><AlignJustify className="text-2xl hidden md:block md:mr-4 cursor-pointer "/></div> : <div><ChevronLeft className="text-2xl hidden md:block md:mr-4 cursor-pointer"/></div>}
         </button>
         
         </> 
