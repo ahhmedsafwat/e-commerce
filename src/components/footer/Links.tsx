@@ -4,7 +4,7 @@ import Logo from "../../assets/images/logo.svg";
 
 const Links = () => {
   return (
-    <div className="min-w-40">
+    <div className="min-w-40 xl: grid xl:col-span-full">
       <Link to={"/"}>
         <img className="pb-10" src={Logo} alt="Logo"></img>
       </Link>
@@ -13,7 +13,7 @@ const Links = () => {
         From women to men.
       </p>
 
-      <ul className="flex pt-10 text-2xl ">
+      <ul className="flex pt-14 text-2xl ">
         <li className="social-box group">
           <LuFacebook className="social-icon  group-hover:stroke-0  " />
         </li>

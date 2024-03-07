@@ -19,7 +19,7 @@ export const HamMenu= ()=>{
         
         <>
         <div className='relative w-full hidden md:block'>
-            <div className='hidden md:block z-20 absolute bg-slate-600 w-64 left-[-80px] top-[15px] rounded-lg' style={{padding: menuCklick ? '20px' : '0' }}>
+            <div className='hidden md:block z-20 absolute bg-slate-600 w-64 md:left-[-64px] top-[15px] rounded-lg mad:left-[-40px]' style={{padding: menuCklick ? '20px' : '0' }}>
             {menuCklick && items}
             </div>
         </div>
