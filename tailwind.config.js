@@ -2,7 +2,24 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    
     extend: {
+      screens: {
+        '2xl': {'min': '1280px'},
+      // => @media (min-width: 1535px) { ... }
+
+      'xl': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1070px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '840px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
+      },
       colors: {
         whitedark: "#F0F0F0",
         primary: "#FFFFFF",

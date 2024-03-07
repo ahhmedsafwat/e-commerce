@@ -5,7 +5,7 @@ import apple from "../../assets/images/apple-pay.png";
 import masterCard from "../../assets/images/Badge.png";
 const CopyRights = () => {
   return (
-    <div className="flex justify-between items-center px-24 py-6 ">
+    <div className="flex justify-between items-center">
       <h3 className="text-gray-500">
         Shop.co © 2000-2023, All Rights Reserved
       </h3>
