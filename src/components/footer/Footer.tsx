@@ -5,7 +5,7 @@ import CopyRights from "./Copyrights";
 const Footer = () => {
   return (
     <footer className="bg-whitedark  px-20 py-16 test:bg-black">
-      <div className="grid grid-cols-5 gap-28 ">
+      <div className="grid grid-cols-5 2xl:gap-36 ">
         <Links></Links>
         <ul className="min-w-48 xl:col-span-3">
           <h3 className="pb-7 font-satoshi500 cursor-pointer">COMPANY</h3>

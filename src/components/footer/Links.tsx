@@ -8,7 +8,7 @@ const Links = () => {
       <Link to={"/"}>
         <img className="pb-10" src={Logo} alt="Logo"></img>
       </Link>
-      <p className="w-60 text-sm text-gray-600 font-satoshireguler ">
+      <p className="w-60 2xl:text-sm text-gray-600 font-satoshireguler xl:text-lg">
         We have clothes that suits your style and which you’re proud to wear.
         From women to men.
       </p>
