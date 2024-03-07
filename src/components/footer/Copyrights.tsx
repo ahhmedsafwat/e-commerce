@@ -5,11 +5,11 @@ import apple from "../../assets/images/apple-pay.png";
 import masterCard from "../../assets/images/Badge.png";
 const CopyRights = () => {
   return (
-    <div className="flex justify-between items-center mad:flex-wrap mad:justify-center">
-      <h3 className="text-gray-500 ">
+    <div className="flex justify-between items-center mad:flex-wrap mad:justify-center sm:flex-col   xl:px-6 px-20 md:px-8 sm:px-2 ">
+      <h3 className="text-gray-500 font-satoshireguler sm:text-sm">
         Shop.co © 2000-2023, All Rights Reserved
       </h3>
-      <div className="flex">
+      <div className="flex flex-wrap justify-center">
         <img src={visa} alt="" className="cursor-pointer"></img>
         <img src={masterCard} alt="" className="cursor-pointer"></img>
         <img src={paypal} alt="" className="cursor-pointer"></img>

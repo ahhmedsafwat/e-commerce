@@ -4,11 +4,11 @@ import Logo from "../../assets/images/logo.svg";
 
 const Links = () => {
   return (
-    <div className="min-w-40 xl: grid xl:col-span-full">
-      <Link to={"/"}>
-        <img className="pb-10" src={Logo} alt="Logo"></img>
+    <div className="md:mb-4 sm:col-span-full ">
+      <Link to={"/"} className="mb-10 block ">
+        <img src={Logo} alt="Logo"></img>
       </Link>
-      <p className="w-60 2xl:text-sm text-gray-600 font-satoshireguler xl:text-lg">
+      <p className="w-60 text-sm text-gray-600 font-satoshireguler text-wrap ">
         We have clothes that suits your style and which you’re proud to wear.
         From women to men.
       </p>
