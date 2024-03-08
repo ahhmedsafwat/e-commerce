@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/logo.svg";
 import "./navbar.css";
-import HamMenu from "./Hamburger";
+
 import Navitems from "./NvaItems";
 
 const Nav = () => {
   return (
-    <div className="flex  items-center">
-      <HamMenu />
+    <div className="flex items-center sm:justify-center relative">
       <Link to={"/"}>
-        <img className="min-w-32 md:min-w-40 " src={Logo} alt="Logo"></img>
+        <img className="md:min-w-32 min-w-40" src={Logo} alt="Logo"></img>
       </Link>
 
       <div className="ml-5 flex md:hidden">
@@ -19,10 +18,10 @@ const Nav = () => {
           <option value={"jeans"}>jeans</option>
         </select>
 
-        <Navitems link="OnSale"/>
-        <Navitems link="Arrivals"/>
-        <Navitems link="New"/>
-        <Navitems link="Brands"/>
+        <Navitems link="OnSale" />
+        <Navitems link="Arrivals" />
+        <Navitems link="New" />
+        <Navitems link="Brands" />
       </div>
     </div>
   );

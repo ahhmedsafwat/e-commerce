@@ -1,10 +1,12 @@
 import Links from "./Links";
+import HamMenu from "./Hamburger";
 import Nav from "./Nav";
 
 const Navbar = () => {
   return (
-    <header className="px-24 py-6 mad:px-10 md:px-16 relative">
-      <div className=" flex justify-between items-center">
+    <header className=" relative">
+      <div className=" flex justify-between items-center sm:justify-center px-24 py-6 sm:px-0 ">
+        <HamMenu />
         <Nav />
         <Links />
       </div>
