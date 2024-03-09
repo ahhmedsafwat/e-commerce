@@ -13,7 +13,7 @@ const Nav = () => {
 
       <div className="ml-5 flex md:hidden">
         <DropValue />
-        <Navitems link="OnSale" />
+        <Navitems link="On Sale" />
         <Navitems link="Arrivals" />
         <Navitems link="New" />
         <Navitems link="Brands" />

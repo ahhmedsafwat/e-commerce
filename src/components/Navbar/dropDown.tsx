@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { ChevronUp } from "lucide-react";
+import { LuChevronUp} from "react-icons/lu";
 
 const DropValue = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -30,8 +30,8 @@ const DropValue = () => {
     <div className="relative" ref={dropdownRef} onClick={handleOpen}>
       <div className="flex items-center cursor-pointer">
         Shop{" "}
-        <ChevronUp
-          className={`${open ? "rotate-180" : "rotate-0"} transition `}
+        <LuChevronUp size={24}
+          className={`${open ? "rotate-180" : "rotate-0"} transition ml-1 mt-0.5`}
         />
       </div>
 
