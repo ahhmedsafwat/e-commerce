@@ -18,7 +18,7 @@ export const HamMenu = () => {
 
   return (
     <>
-      <div className="absolute w-full hidden md:block">
+      <div className=" hidden absolute w-full  md:block">
         <div
           className="hidden md:block z-20 absolute bg-slate-600 w-64 left-20 top-[15px] rounded-lg ease-linear duration-500"
           style={{ padding: menuCklick ? "20px" : "0" }}
@@ -27,7 +27,7 @@ export const HamMenu = () => {
         </div>
       </div>
 
-      <button onClick={handelMenu}>
+      <button onClick={handelMenu} className="hidden md:block">
         {!menuCklick ? (
           <div>
             <AlignJustify className="text-2xl hidden md:block md:mr-4 cursor-pointer " />
