@@ -35,14 +35,16 @@ const DropValue = () => {
         />
       </div>
 
-      {open && (
-        <ul className="mt-2 border border-gray-300 rounded-md shadow-md bg-white absolute duration-300 delay-[50] transition-all hover:bg-gray-300 ">
-          <li className="py-2 px-4 cursor-pointer hover:bg-gray-100">Casual</li>
-          <li className="py-2 px-4 cursor-pointer hover:bg-gray-100">Hoodie</li>
-          <li className="py-2 px-4 cursor-pointer hover:bg-gray-100">Jeans</li>
-          <li className="py-2 px-4 cursor-pointer hover:bg-gray-100">Shoes</li>
-        </ul>
-      )}
+      <ul
+        className={`mt-2 border border-gray-300 overflow-hidden rounded-md shadow-md bg-white absolute w-40 left-[-10px] ${
+          open ? "h-auto translate-y-2" : " invisible opacity-0"
+        } transition duration-300`}
+      >
+        <li className="dropdown-item ">Casual</li>
+        <li className="dropdown-item">Hoodie</li>
+        <li className="dropdown-item">Jeans</li>
+        <li className="dropdown-item">Shoes</li>
+      </ul>
     </div>
   );
 };
