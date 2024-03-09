@@ -1,4 +1,4 @@
-import { AlignJustify, ChevronLeft } from "lucide-react";
+import { TfiAlignJustify , TfiAngleLeft } from "react-icons/tfi";
 import { useState } from "react";
 import Navitems from "./NvaItems";
 
@@ -30,11 +30,11 @@ export const HamMenu = () => {
       <button onClick={handelMenu} className="hidden md:block">
         {!menuCklick ? (
           <div>
-            <AlignJustify className="text-2xl hidden md:block md:mr-4 cursor-pointer " />
+            <TfiAlignJustify className="text-2xl hidden md:block md:mr-4 cursor-pointer " />
           </div>
         ) : (
           <div>
-            <ChevronLeft className="text-2xl hidden md:block md:mr-4 cursor-pointer" />
+            <TfiAngleLeft className="text-2xl hidden md:block md:mr-4 cursor-pointer" />
           </div>
         )}
       </button>
