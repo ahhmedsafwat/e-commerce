@@ -3,6 +3,7 @@ import Logo from "../../assets/images/logo.svg";
 import "./navbar.css";
 
 import Navitems from "./NvaItems";
+import DropValue from "./dropDown";
 
 const Nav = () => {
   return (
@@ -12,11 +13,7 @@ const Nav = () => {
       </Link>
 
       <div className="ml-5 flex md:hidden">
-        <select className="navbar-item">
-          <option value={"shope"}>Shop</option>
-          <option value={"hoodie"}>Hoodie</option>
-          <option value={"jeans"}>jeans</option>
-        </select>
+        <DropValue />
 
         <Navitems link="OnSale" />
         <Navitems link="Arrivals" />
