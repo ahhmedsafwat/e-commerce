@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className="bg-whitedark test:bg-black ">
       <div className="grid  grid-cols-5 lg:grid-cols-2  gap-28 sm:gap-5 xl:gap-6  py-16 xl:px-6 px-20 md:px-8 sm:px-2">
         <Links></Links>
-        <ul>
-          <h3 className="mb-7 font-satoshi500 cursor-pointer">COMPANY</h3>
+        <ul className="xl:ml-12">
+          <h3 className="mb-7 font-satoshi500 cursor-pointer ">COMPANY</h3>
           <Footeritem text="About" />
           <Footeritem text="Feature" />
           <Footeritem text="Works" />
