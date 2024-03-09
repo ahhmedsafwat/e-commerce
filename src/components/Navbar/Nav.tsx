@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/logo.svg";
 import "./navbar.css";
-
 import Navitems from "./NvaItems";
 import DropValue from "./dropDown";
 
@@ -14,7 +13,6 @@ const Nav = () => {
 
       <div className="ml-5 flex md:hidden">
         <DropValue />
-
         <Navitems link="OnSale" />
         <Navitems link="Arrivals" />
         <Navitems link="New" />
