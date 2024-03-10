@@ -7,7 +7,7 @@ export default {
         "2xl": { min: "1280px" },
         // => @media (min-width: 1535px) { ... }
 
-        xl: { max: "1279px" , min: "1071px" },
+        "xl": { max: "1279px" , min: "1071px" },
         // => @media (max-width: 1279px) { ... }
 
         lg: { max: "1070px" },
