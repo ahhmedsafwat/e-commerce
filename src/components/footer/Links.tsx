@@ -4,7 +4,7 @@ import Logo from "../../assets/images/logo.svg";
 
 const Links = () => {
   return (
-    <div className="md:mb-4 sm:col-span-full ">
+    <div className="medium:mb-4 small:col-span-full ">
       <Link to={"/"} className="mb-10 block ">
         <img src={Logo} alt="Logo"></img>
       </Link>

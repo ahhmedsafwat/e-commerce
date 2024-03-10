@@ -6,7 +6,7 @@ import FooterItems from "./Footeritems";
 const Footer = () => {
   return (
     <footer className="bg-whitedark test:bg-black ">
-      <div className="grid  grid-cols-5 lg:grid-cols-2  gap-28 sm:gap-5 xl:gap-6 py-16 xl:px-6 px-20 md:px-8 sm:px-2">
+      <div className="grid  grid-cols-5 large:grid-cols-2 gap-28 small:gap-5 xLarge:gap-6 py-16 xLarge:px-6 px-20 medium:px-8 ">
         <Links></Links>
         <FooterItems></FooterItems>
       </div>

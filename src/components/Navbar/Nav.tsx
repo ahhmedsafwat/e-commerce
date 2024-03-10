@@ -6,17 +6,17 @@ import DropValue from "./dropDown";
 
 const Nav = () => {
   return (
-    <div className="flex items-center sm:justify-center relative">
+    <div className="flex items-center small:justify-center relative">
       <Link to={"/"}>
-        <img className="md:min-w-32 min-w-40" src={Logo} alt="Logo"></img>
+        <img className="medium:min-w-32 min-w-40" src={Logo} alt="Logo"></img>
       </Link>
 
-      <div className="ml-5 flex md:hidden">
+      <div className="ml-5 flex medium:hidden">
         <DropValue />
-        <Navitems link="On Sale" />
-        <Navitems link="Arrivals" />
-        <Navitems link="New" />
-        <Navitems link="Brands" />
+        <Navitems className="navbar-item" link="On Sale" />
+        <Navitems className="navbar-item" link="Arrivals" />
+        <Navitems className="navbar-item" link="New" />
+        <Navitems className="navbar-item" link="Brands" />
       </div>
     </div>
   );

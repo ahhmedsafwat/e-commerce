@@ -1,9 +1,9 @@
-interface navLink{
-    link:string
+interface navLink {
+  link: string;
+  className: string;
 }
-const Navitems = (props:navLink)=>{
-    return <a className="navbar-item" >{props.link}</a>
-    
-}
+const Navitems = (props: navLink) => {
+  return <a className={props.className}>{props.link}</a>;
+};
 
 export default Navitems;

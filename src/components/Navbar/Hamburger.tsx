@@ -1,43 +1,58 @@
-import { TfiAlignJustify , TfiAngleLeft } from "react-icons/tfi";
-import { useState } from "react";
+import { LuAlignJustify, LuChevronLeft } from "react-icons/lu";
+import { useRef, useState, useEffect } from "react";
 import Navitems from "./NvaItems";
 
 export const HamMenu = () => {
-  const [menuCklick, setMenuClick] = useState<boolean>(false);
+  const [menuOpen, setmenuOpen] = useState<boolean>(false);
+  const menuRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setmenuOpen(false);
+      }
+    };
+
+    window.addEventListener("click", handleOutsideClick);
+    return () => {
+      window.removeEventListener("click", handleOutsideClick);
+    };
+  }, []);
+
   const handelMenu = () => {
-    setMenuClick(!menuCklick);
+    setmenuOpen(!menuOpen);
   };
+
   const items = (
     <>
-      <Navitems link="On Sale" />
-      <Navitems link="Arrivals" />
-      <Navitems link="New" />
-      <Navitems link="Brands" />
+      <Navitems className="hamburger-item group" link="On Sale" />
+      <Navitems className="hamburger-item" link="Arrivals" />
+      <Navitems className="hamburger-item" link="New" />
+      <Navitems className="hamburger-item" link="Brands" />
     </>
   );
 
   return (
     <>
-      <div className=" hidden absolute w-full  md:block">
-        <div
-          className="hidden md:block z-20 absolute bg-slate-600 w-64 left-20 top-[15px] rounded-lg ease-linear duration-500"
-          style={{ padding: menuCklick ? "20px" : "0" }}
-        >
-          {menuCklick && items}
-        </div>
-      </div>
-
-      <button onClick={handelMenu} className="hidden md:block">
-        {!menuCklick ? (
-          <div>
-            <TfiAlignJustify className="text-2xl hidden md:block md:mr-4 cursor-pointer " />
-          </div>
-        ) : (
-          <div>
-            <TfiAngleLeft className="text-2xl hidden md:block md:mr-4 cursor-pointer" />
-          </div>
-        )}
+      <button
+        onClick={handelMenu}
+        ref={menuRef}
+        className="hidden p medium:block"
+      >
+        <LuAlignJustify
+          className={`${menuOpen ? "hidden" : "block"} cursor-pointer size-7`}
+        />
+        {menuOpen && <LuChevronLeft className="cursor-pointer size-7" />}
       </button>
+      <div
+        className={`hidden medium:block z-20 absolute medium:w-[79%] medium:left-[12%] small:w-[90%] small:left-[25px] rounded-lg ${
+          menuOpen
+            ? "h-max top-24 opacity-100 visible transition-all"
+            : "h-0 top-0 opacity-0 invisible transition-all"
+        } bg-white overflow-hidden`}
+      >
+        {items}
+      </div>
     </>
   );
 };

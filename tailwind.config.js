@@ -7,16 +7,16 @@ export default {
         "2xl": { min: "1280px" },
         // => @media (min-width: 1535px) { ... }
 
-        "xl": { max: "1279px" , min: "1071px" },
+        xLarge: { max: "1279px", min: "1071px" },
         // => @media (max-width: 1279px) { ... }
 
-        lg: { max: "1070px" },
+        large: { max: "1070px" },
         // => @media (max-width: 1023px) { ... }
 
-        md: { max: "840px" },
+        medium: { max: "840px" },
         // => @media (max-width: 767px) { ... }
 
-        sm: { max: "651px" },
+        small: { max: "651px" },
         // => @media (max-width: 639px) { ... }
       },
       colors: {

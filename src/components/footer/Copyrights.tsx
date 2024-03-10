@@ -5,8 +5,8 @@ import apple from "../../assets/images/apple-pay.png";
 import masterCard from "../../assets/images/Badge.png";
 const CopyRights = () => {
   return (
-    <div className="flex justify-between items-center mad:flex-wrap mad:justify-center sm:flex-col   xl:px-6 px-20 md:px-8 sm:px-2 ">
-      <h3 className="text-gray-500 font-satoshireguler sm:text-sm">
+    <div className="flex justify-between items-center mad:flex-wrap mad:justify-center small:flex-col   xLarge:px-6 px-20 medium:px-8 small:px-2 ">
+      <h3 className="text-gray-500 font-satoshireguler small:text-sm">
         Shop.co © 2000-2023, All Rights Reserved
       </h3>
       <div className="flex flex-wrap justify-center">
