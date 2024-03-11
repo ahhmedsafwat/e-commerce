@@ -1,0 +1,3 @@
+.brand-name {
+  @apply cursor-pointer block py-4 large:mx-4 small:mx-2 small:size-20;
+}
