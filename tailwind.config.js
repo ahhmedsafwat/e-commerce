@@ -18,6 +18,8 @@ export default {
 
         small: { max: "651px" },
         // => @media (max-width: 639px) { ... }
+
+        tiny: { max: "420px"},
       },
       colors: {
         whitedark: "#F0F0F0",
