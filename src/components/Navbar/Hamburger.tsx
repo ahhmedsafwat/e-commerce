@@ -47,9 +47,9 @@ export const HamMenu = () => {
       <div
         className={`hidden medium:block z-20 absolute medium:w-[79%] medium:left-[12%] small:w-[90%] small:left-[25px] rounded-lg ${
           menuOpen
-            ? "h-max top-24 opacity-100 visible transition-all"
-            : "h-0 top-0 opacity-0 invisible transition-all"
-        } bg-white overflow-hidden`}
+            ? "h-max top-24 opacity-100 visible"
+            : "h-0 top-0 opacity-0 invisible "
+        } bg-white transition-all`}
       >
         {items}
       </div>
