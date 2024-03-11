@@ -5,7 +5,7 @@ import Nav from "./Nav";
 const Navbar = () => {
   return (
     <header className=" relative">
-      <div className=" flex justify-between items-center small:justify-between px-24 py-6  small:px-4 ">
+      <div className=" flex justify-between items-center small:justify-between px-24 py-6  small:px-4 large:px-20">
         <HamMenu />
         <Nav />
         <Links />
