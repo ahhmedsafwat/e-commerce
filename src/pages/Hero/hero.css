@@ -1,0 +1,6 @@
+.before-star {
+  @apply before:bg-[url(../../assets/images/stars.svg)] before:block before:absolute before:size-24 medium:before:size-16 before:bg-no-repeat before:bg-contain before:top-[12%] before:right-0;
+}
+.after-star {
+  @apply after:bg-[url(../../assets/images/stars.svg)] after:block after:absolute  after:size-14  medium:after:size-11 after:bg-no-repeat after:bg-contain after:top-[52%];
+}
