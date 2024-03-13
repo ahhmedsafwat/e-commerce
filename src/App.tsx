@@ -4,21 +4,24 @@ import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar/Navbar";
 import Offer from "./components/Offer";
 import Footer from "./components/footer/Footer";
-
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 const App = () => {
+  const client = new QueryClient()
   return (
-    <div className="App ">
-      <Router>
-        <Offer />
-        <Navbar />
-        <Routes>
+    <QueryClientProvider client={client}>
+      <div className="App ">
+        <Router>
+          <Offer />
+          <Navbar />
+          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           {/* <Route path="/signup"  element={}> */}
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
+    </QueryClientProvider>
   );
 };
 

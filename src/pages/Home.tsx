@@ -1,18 +1,14 @@
-// import { useState } from "react";
 import Hero from "./Hero/Hero";
 import Brands from "../components/Brands/Brands";
+import FetchData from "../components/FetchData/FectchData";
 
-// import Axios from "axios";
 
 const Home = () => {
-  // const [data, setData] = useState()
-  // Axios.get('https://fakestoreapi.com/products/1').then((res)=>{
-  //     console.log(res.data)
-  // })
   return (
     <div>
       <Hero />
       <Brands />
+      <FetchData />
     </div>
   );
 };
