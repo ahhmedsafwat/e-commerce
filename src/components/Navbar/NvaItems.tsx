@@ -1,9 +1,20 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 interface navLink {
   link: string;
   className: string;
+  children?: React.ReactNode;
 }
 const Navitems = (props: navLink) => {
-  return <a className={props.className}>{props.link}</a>;
+  return (
+    <li className="list-none">
+      <Link to={"/"} className={props.className}>
+        {props.link}
+      </Link>
+      {props.children}
+    </li>
+  );
 };
 
 export default Navitems;
