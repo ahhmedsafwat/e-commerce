@@ -11,7 +11,7 @@ const Nav = () => {
         <img className="medium:min-w-32 min-w-40" src={Logo} alt="Logo"></img>
       </Link>
 
-      <div className="ml-5 flex medium:hidden">
+      <div className="ml-5 flex medium:hidden items-center">
         <DropValue />
         <Navitems className="navbar-item" link="On Sale" />
         <Navitems className="navbar-item" link="Arrivals" />

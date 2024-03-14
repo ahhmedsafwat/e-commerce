@@ -2,7 +2,7 @@ import Statistics from "./statistics";
 const Right = () => {
   return (
     <div className="w-[45%] large:w-full large:text-center medium:text-left">
-      <h1 className="font-secondary  text-6xl 2xl:text-[46px] leading-[64px] xLarge:text-5xl pb-7 small:text-4xl">
+      <h1 className="font-secondary text-6xl leading-[64px] xLarge:text-5xl pb-7 small:text-4xl">
         FIND CLOTHES THAT MATCHES YOUR STYLE
       </h1>
       <p className="font-satoshireguler mb-7  text-gray-500 ">

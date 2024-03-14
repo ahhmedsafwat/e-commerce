@@ -2,7 +2,7 @@ import Footeritem from "./Footeritem";
 const FooterItems = () => {
   return (
     <>
-      <ul>
+      <ul className="xLarge:ml-10">
         <h3 className="mb-7 font-satoshi500 cursor-pointer">COMPANY</h3>
         <Footeritem text="About" />
         <Footeritem text="Feature" />

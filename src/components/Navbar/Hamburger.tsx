@@ -1,11 +1,11 @@
 import { LuAlignJustify, LuChevronLeft, LuChevronRight } from "react-icons/lu";
 import { useRef, useState, useEffect } from "react";
 import Navitems from "./NvaItems";
+import surpise from "../../assets/images/Surprise.png"
 
 export const HamMenu = () => {
-
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
-  const [shopClick, setShopClick] = useState<boolean>(false)
+  const [shopClick, setShopClick] = useState<boolean>(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const burgerRef = useRef<HTMLButtonElement>(null);
 
@@ -37,27 +37,27 @@ export const HamMenu = () => {
   };
 
   const handleShop = () => {
-    console.log("Shop clicked");
+    
     setShopClick(!shopClick);
+    console.log("Shop clicked");
   };
   
   const items = (
     <>
       <Navitems
-        className="hamburger-item group relative"
+        onClick={handleShop}
+        className="hamburger-item "
         link="Shop"
-        icon={<LuChevronRight className="inline absolute top-2.5 left-[90%]" size={24} 
-        />}
+        icon={<LuChevronRight className="inline absolute top-2.5 left-[92%]" size={24} />}
       >
-        <div onClick={handleShop} className={`p-2 ${shopClick ? 'block' : 'hidden'}`}>
-          
-          <li className="mb-1 bg-slate-800 p-2 cursor-pointer">Casual</li>
-          <li className="mb-1 bg-slate-800 p-2 cursor-pointer">Hoodie</li>
-          <li className="mb-1 bg-slate-800 p-2 cursor-pointer">Jeans</li>
-          <li className="mb-1 bg-slate-800 p-2 cursor-pointer">Shoes</li>
+        <div  className={`p-2 ${shopClick ? 'block w-[95%]' : 'hidden'}`}>
+          <li className="shop-item">Casual</li>
+          <li className="shop-item">Hoodie</li>
+          <li className="shop-item">Jeans</li>
+          <li className="shop-item">Shoes</li>
         </div>
       </Navitems>
-      <Navitems className="hamburger-item group" link="On Sale" />
+      <Navitems className="hamburger-item" link="On Sale" />
       <Navitems className="hamburger-item" link="Arrivals" />
       <Navitems className="hamburger-item" link="New" />
       <Navitems className="hamburger-item" link="Brands" />
@@ -74,12 +74,19 @@ export const HamMenu = () => {
       <div
         ref={menuRef}
         className={`hidden medium:block z-20 absolute medium:w-[79%] medium:left-[12%] small:w-[90%] small:left-[25px] rounded-lg 
-        ${menuOpen ? "h-max top-24 opacity-100 visibl" : "h-0 top-0 opacity-0 invisible "} 
-        bg-white transition-all`}
+        ${menuOpen ? "h-max top-24 opacity-1 visible z-40" : "h-0 top-0 opacity-0 invisible "} 
+        bg-gradient-to-tr from-black to-gray-700 transform origin-bottom-right hover:-rotate-45 transition duration-300`}
+        
       >
         {items}
       </div>
-    </>
-  );
+      
+  
+      <div className={`hidden medium:block z-20 absolute medium:w-[79%] medium:left-[12%] small:w-[90%] small:left-[25px] rounded-lg 
+      ${menuOpen ? "h-max top-24 opacity-1 visible z-20" : "h-0 top-0 opacity-0 invisible "} 
+      text-6xl text-orange-500`}
+      >AHMED SFAWT <img src={surpise} alt="" className="w-[30%]"/></div>
+    </> 
+  )
 };
 export default HamMenu;
