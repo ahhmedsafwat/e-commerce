@@ -1,8 +1,8 @@
 import Statistics from "./statistics";
 const Right = () => {
   return (
-    <div className="w-[45%] large:w-full large:text-center medium:text-left">
-      <h1 className="font-secondary text-6xl leading-[64px] xLarge:text-5xl pb-7 small:text-4xl">
+    <div className="w-[45%] large:w-full large:text-center medium:text-left pb-20 pt-10 large:pb-0 large:pt-0">
+      <h1 className="font-secondary text-[55px] leading-[64px] xLarge:text-5xl large:text-6xl medium:text-5xl pb-7 small:text-[34px]">
         FIND CLOTHES THAT MATCHES YOUR STYLE
       </h1>
       <p className="font-satoshireguler mb-7  text-gray-500 ">
@@ -14,7 +14,7 @@ const Right = () => {
         Shop Now
       </button>
 
-      <div className="flex  pt-6 font-satoshiBold text-2xl justify-between large:flex-wrap medium:justify-center ">
+      <div className="flex  pt-6 font-satoshiBold text-2xl justify-between large:flex-wrap medium:justify-left small:justify-center ">
         <Statistics number="200+" string="International Brands" />
         <Statistics number="2,000+" string="High-Quality Products" />
         <Statistics number="30,000+" string="Happy Customers" />
