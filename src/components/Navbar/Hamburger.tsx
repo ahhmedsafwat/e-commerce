@@ -48,7 +48,7 @@ export const HamMenu = () => {
         link="Shop"
         icon={
           <LuChevronRight
-            className={`inline absolute top-2.5 left-[90%]${
+            className={`inline absolute top-2.5 left-[90%]  ${
               shopClick && "rotate-90"
             } `}
             size={24}

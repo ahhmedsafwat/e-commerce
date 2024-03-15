@@ -3,10 +3,10 @@ import Brands from "../components/Brands/Brands";
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Hero />
       <Brands />
-    </div>
+    </main>
   );
 };
 
