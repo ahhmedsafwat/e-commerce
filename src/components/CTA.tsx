@@ -2,11 +2,14 @@ import MessageIcon from "../assets/images/Vector.svg";
 
 const CTA = () => {
   return (
-    <div className="absolute bg-red-500 w-[90%] 2xl:flex xLarge:flex p-5 justify-between rounded-xl top-[-115px]">
-      <h1 className=" text-primary text-5xl w-[69%]">
+    <form className="absolute bg-secondory w-[90%] flex p-4 justify-between rounded-xl top-[-115px] items-center 
+    xLarge:top-[-125px] medium:flex-wrap small:w-[85%] small:mt-[-35px]">
+
+      <h1 className=" text-primary font-secondary text-4xl w-[69%] large:text-3xl medium:w-full mb-2">
         STAY UPTO DATE ABOUT OUR LATEST OFFERS
       </h1>
-      <div className="w-2/4">
+      
+      <div className="w-2/4 medium:w-full mb-[-1px]">
         <input
           type="text"
           placeholder="Enter your email address"
@@ -21,8 +24,9 @@ const CTA = () => {
           className="relative top-[-80px] left-[10px]"
         />
       </div>
-    </div>
+    </form>
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default CTA;
