@@ -1,6 +1,6 @@
 const ProductSkeleton = () => {
   return (
-    <div className="max-w-72 p-4 animate-pulse space-y-6 ">
+    <div className="max-w-72 w-full p-4 animate-pulse space-y-6 ">
       <div className="flex items-center justify-center w-full h-72 bg-gray-300 rounded  dark:bg-gray-700">
         <svg
           className="w-10 h-10 text-gray-200 dark:text-gray-600"

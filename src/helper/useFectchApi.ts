@@ -1,12 +1,14 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-interface Products {
+export interface Products {
   id: number;
   title: string;
   price: number;
-  image: string;
+  image: { font: string; back: string; dressed: string };
   category: string;
+  rating: { rate: string };
+  discount: { amout: number; percentage: number };
 }
 const useFetchData = (url: string) => {
   const {
@@ -40,4 +42,4 @@ const usePostData = () => {
   return { postData };
 };
 
-export default [useFetchData, usePostData];
+export { useFetchData, usePostData };

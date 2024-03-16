@@ -7,7 +7,7 @@ import calvin from "../../assets/images/calvin-klein.svg";
 
 const Brands = () => {
   return (
-    <div className="flex justify-around items-center flex-wrap px-20 min-h-32 bg-black large:px-12 medium: small:px-4">
+    <div className="flex justify-between xLarge:justify-around items-center flex-wrap px-24 min-h-32 bg-black large:px-12  small:px-4">
       <img src={versaca} alt="Versaca name" className="brand-name" />
       <img src={zara} alt="zara name" className="brand-name" />
       <img src={gucci} alt="gucci name" className="brand-name" />
