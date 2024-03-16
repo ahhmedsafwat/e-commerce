@@ -5,7 +5,7 @@ export interface Products {
   id: number;
   title: string;
   price: number;
-  image: { font: string; back: string; dressed: string };
+  image: { font: string; back: string; };
   category: string;
   rating: { rate: string };
   discount: { amout: number; percentage: number };
