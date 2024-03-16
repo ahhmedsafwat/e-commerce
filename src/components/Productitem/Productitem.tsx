@@ -30,7 +30,7 @@ const ProductItem = () => {
       <div>
         <div>${product.price}</div>
         {product.discount.amout != 0 ? <div>{product.discount.amout}</div> : ""}
-        {product.discount.percentage != "" ? (
+        {product.discount.percentage != 0 ? (
           <div>{product.discount.percentage}</div>
         ) : (
           ""
