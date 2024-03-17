@@ -19,7 +19,7 @@ const ProductItem = () => {
   return fakeData?.map((product) => (
     <div key={product.id}>
       <div>
-        <img src={product.image.dressed} alt={`${product.image.dressed}`} />
+        <img src={product.image.font} alt={`${product.image}`} />
       </div>
       <h3 className="text-3xl">{product.title}</h3>
       <div>

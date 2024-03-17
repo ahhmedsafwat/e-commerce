@@ -1,14 +1,15 @@
 import MessageIcon from "../assets/images/Vector.svg";
 
-const CTA = () => {
+const Cta = () => {
   return (
-    <form className="absolute bg-secondory w-[90%] flex p-4 justify-between rounded-xl top-[-115px] items-center 
-    xLarge:top-[-125px] medium:flex-wrap small:w-[85%] small:mt-[-35px]">
-
+    <form
+      className="absolute bg-secondory w-[90%] flex p-4 justify-between rounded-xl top-[-115px] items-center 
+    xLarge:top-[-125px] medium:flex-wrap small:w-[85%] small:mt-[-35px]"
+    >
       <h1 className=" text-primary font-secondary text-4xl w-[69%] large:text-3xl medium:w-full mb-2">
         STAY UPTO DATE ABOUT OUR LATEST OFFERS
       </h1>
-      
+
       <div className="w-2/4 medium:w-full mb-[-1px]">
         <input
           type="text"
@@ -28,6 +29,4 @@ const CTA = () => {
   );
 };
 
-
-// eslint-disable-next-line react-refresh/only-export-components
-export default CTA;
+export default Cta;
