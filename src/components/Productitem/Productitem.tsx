@@ -1,8 +1,17 @@
 import { useFetchData } from "../../helper/useFectchApi";
 import ProductSkeleton from "../loader/ProductSkeleton";
+interface Products {
+  id: number;
+  title: string;
+  price: number;
+  image: { font: string; back: string; dressed: string };
+  category: string;
+  rating: { rate: string };
+  discount: { amout: number; percentage: number };
+}
 
 const ProductItem = () => {
-  const { fakeData, isPending, error } = useFetchData(
+  const { fakeData, isPending, error } = useFetchData<Products[]>(
     `http://localhost:8000/products/?_start=0&_end=4`
   );
 

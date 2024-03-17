@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-export interface Products {
+interface Products {
   id: number;
   title: string;
   price: number;
@@ -10,12 +10,13 @@ export interface Products {
   rating: { rate: string };
   discount: { amout: number; percentage: number };
 }
-const useFetchData = (url: string) => {
+
+const useFetchData = <T>(url: string) => {
   const {
     isPending,
     error,
     data: fakeData,
-  } = useQuery<Products[]>({
+  } = useQuery<T>({
     queryKey: ["fake"],
     queryFn: async () => {
       const response = await axios({

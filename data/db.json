@@ -143,7 +143,7 @@
     {
       "id": 8,
       "title": "Under Armour Men's Tech 2.0 Short Sleeve T-Shirt",
-      "price": 25.0,
+      "price": 25,
       "description": "Comfortable and moisture-wicking short sleeve T-shirt from Under Armour. Perfect for workouts or everyday wear.",
       "category": "men's clothing",
       "image": {
@@ -263,7 +263,7 @@
     {
       "id": 14,
       "title": "adidas Men's Essentials 3-Stripes Tricot Track Jacket",
-      "price": 35.0,
+      "price": 35,
       "description": "Classic track jacket from Adidas featuring the iconic 3-stripes design. Made from comfortable tricot fabric.",
       "category": "men's outerwear",
       "image": {
@@ -343,7 +343,7 @@
     {
       "id": 18,
       "title": "Amazon Essentials Men's Slim-Fit Stretch Jean",
-      "price": 25.0,
+      "price": 25,
       "description": "Slim-fit stretch jeans from Amazon Essentials, offering comfort and style. Available in various colors and sizes.",
       "category": "men's clothing",
       "image": {
@@ -363,7 +363,7 @@
     {
       "id": 19,
       "title": "PUMA Men's Tazon 6 Fracture FM Cross-Trainer Shoe",
-      "price": 70.0,
+      "price": 70,
       "description": "Durable cross-trainer shoes from PUMA, featuring a sleek design and supportive fit. Ideal for workouts or casual wear.",
       "category": "men's shoes",
       "image": {
@@ -483,7 +483,7 @@
     {
       "id": 25,
       "title": "Amazon Essentials Men's Lightweight Water-Resistant Packable Hooded Puffer Jacket",
-      "price": 39.0,
+      "price": 39,
       "description": "Lightweight and water-resistant packable jacket from Amazon Essentials, featuring a hood for added protection. Perfect for travel or outdoor activities.",
       "category": "men's outerwear",
       "image": {
@@ -543,7 +543,7 @@
     {
       "id": 28,
       "title": "Under Armour Men's Charged Assert 8 Running Shoe",
-      "price": 70.0,
+      "price": 70,
       "description": "Lightweight and breathable running shoes from Under Armour, featuring charged cushioning for responsiveness. Ideal for running or workouts.",
       "category": "men's shoes",
       "image": {
@@ -583,7 +583,7 @@
     {
       "id": 30,
       "title": "Reebok Men's Classic Leather Sneaker",
-      "price": 75.0,
+      "price": 75,
       "description": "Iconic leather sneakers from Reebok, featuring a classic design and cushioned footbed. Suitable for everyday wear.",
       "category": "men's shoes",
       "image": {
@@ -603,7 +603,7 @@
     {
       "id": 31,
       "title": "Nike Women's Revolution 5 Running Shoe",
-      "price": 65.0,
+      "price": 65,
       "description": "Versatile running shoes from Nike, featuring lightweight cushioning and a breathable upper. Ideal for running or everyday wear.",
       "category": "women's shoes",
       "image": {
@@ -623,7 +623,7 @@
     {
       "id": 32,
       "title": "Calvin Klein Women's Modern Cotton Bralette",
-      "price": 28.0,
+      "price": 28,
       "description": "Comfortable bralette from Calvin Klein, made from soft and stretchy cotton blend fabric. Features the signature logo band.",
       "category": "women's clothing",
       "image": {
@@ -643,7 +643,7 @@
     {
       "id": 33,
       "title": "Adidas Women's Cloudfoam Pure Running Shoe",
-      "price": 70.0,
+      "price": 70,
       "description": "Lightweight and comfortable running shoes from Adidas, featuring cloudfoam cushioning for support. Perfect for workouts or casual wear.",
       "category": "women's shoes",
       "image": {
@@ -663,7 +663,7 @@
     {
       "id": 34,
       "title": "Under Armour Women's Essential No-Show Socks",
-      "price": 18.0,
+      "price": 18,
       "description": "No-show socks from Under Armour, featuring moisture-wicking fabric for comfort and performance. Multipack available in various colors.",
       "category": "women's accessories",
       "image": {
@@ -683,7 +683,7 @@
     {
       "id": 35,
       "title": "FILA Women's Disruptor II Sneaker",
-      "price": 65.0,
+      "price": 65,
       "description": "Chunky sneakers from FILA, featuring a retro-inspired design and cushioned footbed. Adds a trendy touch to any outfit.",
       "category": "women's shoes",
       "image": {
@@ -703,7 +703,7 @@
     {
       "id": 36,
       "title": "Champion Women's Powerblend Graphic Hoodie",
-      "price": 35.0,
+      "price": 35,
       "description": "Cozy graphic hoodie from Champion, featuring a soft fleece interior and bold logo design. Perfect for lounging or casual wear.",
       "category": "women's clothing",
       "image": {
@@ -803,7 +803,7 @@
     {
       "id": 41,
       "title": "adidas Women's Essentials Linear Logo Pants",
-      "price": 35.0,
+      "price": 35,
       "description": "Comfortable pants from Adidas, featuring the linear logo design and an elastic waistband for a snug fit. Perfect for workouts or casual wear.",
       "category": "women's clothing",
       "image": {
@@ -883,7 +883,7 @@
     {
       "id": 45,
       "title": "Amazon Essentials Women's Lightweight V-Neck Sweater",
-      "price": 20.0,
+      "price": 20,
       "description": "Lightweight V-neck sweater from Amazon Essentials, made from soft and breathable fabric. Versatile and perfect for layering.",
       "category": "women's clothing",
       "image": {
@@ -899,6 +899,13 @@
         "amout": 0,
         "precentage": 0
       }
+    }
+  ],
+  "comments": [
+    {
+      "id": "random id",
+      "name": "jhon",
+      "commnet": "lrom"
     }
   ]
 }
