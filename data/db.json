@@ -5,7 +5,11 @@
       "title": "Fjallraven - Foldsack No. 1",
       "price": 109.95,
       "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "category": "men's clothing",
+      "categories": {
+        "gender": "men",
+        "type": "backpack",
+        "fashion": "outdoor"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/818GEE8ygUL._AC_SL1500_.jpg",
         "back": "https://m.media-amazon.com/images/I/71-gSwoxZnL._AC_SL1500_.jpg",
@@ -16,8 +20,8 @@
         "count": 120
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -25,7 +29,11 @@
       "title": "Levi's Men's 505 Regular Fit Jeans",
       "price": 39.99,
       "description": "Classic regular-fit jeans ideal for everyday wear. Made from durable denim fabric. Available in various sizes and washes.",
-      "category": "men's clothing",
+      "categories": {
+        "gender": "men",
+        "type": "jeans",
+        "fashion": "casual"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61wAYYRiDmL._AC_SY606_.jpg",
         "back": "https://m.media-amazon.com/images/I/513moIRRewL._AC_SY606_.jpg",
@@ -36,8 +44,8 @@
         "count": 350
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -45,7 +53,11 @@
       "title": "Adidas Originals Men's Superstar Sneaker",
       "price": 79.99,
       "description": "Iconic Adidas Superstar sneakers featuring the classic shell toe design. Comfortable and stylish for casual wear.",
-      "category": "men's shoes",
+      "categories": {
+        "gender": "men",
+        "type": "sneaker",
+        "fashion": "casual"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71BKudGlMCL._AC_SY625_.jpg",
         "back": "https://m.media-amazon.com/images/I/61ZOyP6uSzL._AC_SY625_.jpg",
@@ -56,8 +68,8 @@
         "count": 250
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -65,7 +77,11 @@
       "title": "The North Face Men's Resolve Waterproof Jacket",
       "price": 89.95,
       "description": "Stay dry and comfortable in this waterproof jacket from The North Face. Perfect for outdoor adventures and daily commutes.",
-      "category": "men's outerwear",
+      "categories": {
+        "gender": "men",
+        "type": "jacket",
+        "fashion": "outdoor"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/810dA0mugGL._AC_SX522_.jpg",
         "back": "https://m.media-amazon.com/images/I/81EGfy8KwFL._AC_SX522_.jpg",
@@ -76,8 +92,8 @@
         "count": 180
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -85,7 +101,11 @@
       "title": "Timberland Men's White Ledge Mid Waterproof Ankle Boot",
       "price": 79.95,
       "description": "Durable and waterproof ankle boots from Timberland. Great for hiking and outdoor activities. Available in various sizes.",
-      "category": "men's shoes",
+      "categories": {
+        "gender": "men",
+        "type": "boot",
+        "fashion": "outdoor"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/91c919JN0UL._AC_SY575_.jpg",
         "back": "https://m.media-amazon.com/images/I/81Xres6VAZL._AC_SY575_.jpg",
@@ -96,8 +116,8 @@
         "count": 200
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -105,7 +125,11 @@
       "title": "Carhartt Men's K87 Workwear Pocket Short Sleeve T-Shirt",
       "price": 16.99,
       "description": "Classic short sleeve T-shirt from Carhartt, ideal for workwear or casual wear. Features a chest pocket and durable construction.",
-      "category": "men's clothing",
+      "categories": {
+        "gender": "men",
+        "type": "t-shirt",
+        "fashion": "casual"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/814hp8QMsjL._AC_SY741_.jpg",
         "back": "https://m.media-amazon.com/images/I/81DC3aawLAL._AC_SY550_.jpg",
@@ -116,8 +140,8 @@
         "count": 150
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -125,7 +149,11 @@
       "title": "Columbia Men's Glennaker Lake Rain Jacket",
       "price": 39.99,
       "description": "Lightweight and packable rain jacket from Columbia. Features waterproof fabric and adjustable hood. Perfect for outdoor activities.",
-      "category": "men's outerwear",
+      "categories": {
+        "gender": "men",
+        "type": "jacket",
+        "fashion": "outdoor"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/610ThimBpNL._AC_SX569_.jpg",
         "back": "https://m.media-amazon.com/images/I/61lIDM-JndL._AC_SX569_.jpg",
@@ -136,8 +164,8 @@
         "count": 220
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -145,7 +173,11 @@
       "title": "Under Armour Men's Tech 2.0 Short Sleeve T-Shirt",
       "price": 25,
       "description": "Comfortable and moisture-wicking short sleeve T-shirt from Under Armour. Perfect for workouts or everyday wear.",
-      "category": "men's clothing",
+      "categories": {
+        "gender": "men",
+        "type": "t-shirt",
+        "fashion": "sport"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/619tEAGyDJL._AC_SX569_.jpg",
         "back": "https://m.media-amazon.com/images/I/61Vf8PyTPeL._AC_SX569_.jpg",
@@ -156,8 +188,8 @@
         "count": 180
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -165,7 +197,11 @@
       "title": "New Balance Men's 608 V5 Casual Comfort Cross Trainer",
       "price": 69.99,
       "description": "Versatile cross trainer shoes from New Balance. Provides comfort and support for various activities. Available in different colors.",
-      "category": "men's shoes",
+      "categories": {
+        "gender": "men",
+        "type": "trainer",
+        "fashion": "casual"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61gAg7kNlXL._AC_SX575_.jpg",
         "back": "https://m.media-amazon.com/images/I/617VpCi4o4L._AC_SX575_.jpg",
@@ -176,8 +212,8 @@
         "count": 190
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -185,7 +221,11 @@
       "title": "Dickies Men's Dri-Tech Moisture Control Crew Socks Multipack",
       "price": 12.99,
       "description": "Moisture-wicking crew socks from Dickies, designed for all-day comfort. Multipack available in various colors.",
-      "category": "men's accessories",
+      "categories": {
+        "gender": "men",
+        "type": "socks",
+        "fashion": "casual"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/81VdUJHmd0L._AC_SX569_.jpg",
         "back": "https://m.media-amazon.com/images/I/81f-Ah0bSQL._AC_SX569_.jpg",
@@ -196,8 +236,8 @@
         "count": 120
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -205,7 +245,11 @@
       "title": "Wrangler Authentics Men's Classic 5-Pocket Regular Fit Flex Jean",
       "price": 24.99,
       "description": "Classic 5-pocket jeans from Wrangler Authentics, featuring a regular fit and flexible fabric. Suitable for everyday wear.",
-      "category": "men's clothing",
+      "categories": {
+        "gender": "men",
+        "type": "jeans",
+        "fashion": "casual"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71gRW5JhqcL._AC_SY550_.jpg",
         "back": "https://m.media-amazon.com/images/I/71vyzcteLWL._AC_SY550_.jpg",
@@ -216,8 +260,8 @@
         "count": 280
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
     },
     {
@@ -225,7 +269,11 @@
       "title": "Skechers Men's Energy Afterburn Lace-Up Sneaker",
       "price": 49.95,
       "description": "Sporty lace-up sneakers from Skechers, featuring a cushioned insole and supportive design. Ideal for walking or casual activities.",
-      "category": "men's shoes",
+      "categories": {
+        "gender": "men",
+        "type": "sneaker",
+        "fashion": "casual"
+      },
       "image": {
         "front": "https://m.media-amazon.com/images/I/711EPhthmML._AC_SY695_.jpg",
         "back": "https://m.media-amazon.com/images/I/61cEJ+WupZL._AC_SY695_.jpg",
@@ -236,630 +284,598 @@
         "count": 210
       },
       "discount": {
-        "amout": 0,
-        "precentage": 0
+        "amount": 0,
+        "percentage": 0
       }
-    },
+      },
     {
       "id": 13,
-      "title": "Hanes Men's Long Sleeve Beefy Henley Shirt",
-      "price": 14.99,
-      "description": "Comfortable long sleeve henley shirt from Hanes, made from soft and durable fabric. Great for layering or standalone wear.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/61yIuDUDPBL._AC_SX569_.jpg",
-        "back": "https://m.media-amazon.com/images/I/61myVonYqpL._AC_SX466_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/617OwZnKNkL._AC_SX466_.jpg"
-      },
-      "rating": {
-        "rate": 4.4,
-        "count": 150
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "title": "Hanes Men's Long Sleeve Beefy Henley Shirt",
+        "price": 14.99,
+        "description": "Comfortable long sleeve henley shirt from Hanes, made from soft and durable fabric. Great for layering or standalone wear.",
+        "categories": {
+            "gender": "men",
+            "type": "long sleeve henley shirt",
+            "fashion": "casual"
+        }
     },
     {
-      "id": 14,
-      "title": "adidas Men's Essentials 3-Stripes Tricot Track Jacket",
-      "price": 35,
-      "description": "Classic track jacket from Adidas featuring the iconic 3-stripes design. Made from comfortable tricot fabric.",
-      "category": "men's outerwear",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/61QdaioQnKS._AC_SY741_.jpg",
-        "back": "https://m.media-amazon.com/images/I/61EUGsgyUzS._AC_SY741_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81YrGrkMTkS._AC_SY741_.jpg"
-      },
-      "rating": {
-        "rate": 4.7,
-        "count": 190
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 14,
+        "title": "adidas Men's Essentials 3-Stripes Tricot Track Jacket",
+        "price": 35,
+        "description": "Classic track jacket from Adidas featuring the iconic 3-stripes design. Made from comfortable tricot fabric.",
+        "categories": {
+            "gender": "men",
+            "type": "track jacket",
+            "fashion": "outerwear"
+        }
     },
     {
-      "id": 15,
-      "title": "Reebok Men's Nano 9 Cross Trainer Sneaker",
-      "price": 129.99,
-      "description": "High-performance cross trainer sneakers from Reebok, designed for intense workouts. Features a durable outsole and cushioned midsole.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/712x8WDd0oL._AC_SY695_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71l1SwOAfFL._AC_SY695_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81ptO6yw+cL._AC_SX625_.jpg"
-      },
-      "rating": {
-        "rate": 4.9,
-        "count": 280
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 15,
+        "title": "Reebok Men's Nano 9 Cross Trainer Sneaker",
+        "price": 129.99,
+        "description": "High-performance cross trainer sneakers from Reebok, designed for intense workouts. Features a durable outsole and cushioned midsole.",
+        "categories": {
+            "gender": "men",
+            "type": "cross trainer sneaker",
+            "fashion": "shoes"
+        }
     },
     {
-      "id": 16,
-      "title": "Champion Men's Powerblend Fleece Pullover Hoodie",
-      "price": 27.99,
-      "description": "Cozy fleece pullover hoodie from Champion, featuring a kangaroo pocket and adjustable drawstring hood. Perfect for layering.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/514BAwuax+L._AC_SX679_.jpg",
-        "back": "https://m.media-amazon.com/images/I/51IrghwR5qL._AC_SX569_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/512WyFYzU2L._AC_SX569_.jpg"
-      },
-      "rating": {
-        "rate": 4.3,
-        "count": 220
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 16,
+        "title": "Champion Men's Powerblend Fleece Pullover Hoodie",
+        "price": 27.99,
+        "description": "Cozy fleece pullover hoodie from Champion, featuring a kangaroo pocket and adjustable drawstring hood. Perfect for layering.",
+        "categories": {
+            "gender": "men",
+            "type": "pullover hoodie",
+            "fashion": "casual"
+        }
     },
     {
-      "id": 17,
-      "title": "Cole Haan Men's Grand Crosscourt II Sneaker",
-      "price": 79.99,
-      "description": "Casual lace-up sneakers from Cole Haan, featuring a stylish design and cushioned footbed. Great for everyday wear.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/613Anbu-hsL._AC_SY625_.jpg",
-        "back": "https://m.media-amazon.com/images/I/61VdxEjCXqL._AC_SY625_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/61g7HzjglDL._AC_SY625_.jpg"
-      },
-      "rating": {
-        "rate": 4.6,
-        "count": 230
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 17,
+        "title": "Cole Haan Men's Grand Crosscourt II Sneaker",
+        "price": 79.99,
+        "description": "Casual lace-up sneakers from Cole Haan, featuring a stylish design and cushioned footbed. Great for everyday wear.",
+        "categories": {
+            "gender": "men",
+            "type": "lace-up sneaker",
+            "fashion": "shoes"
+        }
     },
     {
-      "id": 18,
-      "title": "Amazon Essentials Men's Slim-Fit Stretch Jean",
-      "price": 25,
-      "description": "Slim-fit stretch jeans from Amazon Essentials, offering comfort and style. Available in various colors and sizes.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/81YSzSA2KAL._AC_SY550_.jpg",
-        "back": "https://m.media-amazon.com/images/I/81+mRNVGOCL._AC_SY550_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71fibd-v+JL._AC_SY550_.jpg"
-      },
-      "rating": {
-        "rate": 4.4,
-        "count": 180
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 18,
+        "title": "Amazon Essentials Men's Slim-Fit Stretch Jean",
+        "price": 25,
+        "description": "Slim-fit stretch jeans from Amazon Essentials, offering comfort and style. Available in various colors and sizes.",
+        "categories": {
+            "gender": "men",
+            "type": "slim-fit stretch jean",
+            "fashion": "casual"
+        }
     },
     {
-      "id": 19,
-      "title": "PUMA Men's Tazon 6 Fracture FM Cross-Trainer Shoe",
-      "price": 70,
-      "description": "Durable cross-trainer shoes from PUMA, featuring a sleek design and supportive fit. Ideal for workouts or casual wear.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71rRIFbBZbL._AC_SY500_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71u2FOyB7SL._AC_SY575_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71+uFyfRTTL._AC_SY575_.jpg"
-      },
-      "rating": {
-        "rate": 4.5,
-        "count": 200
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 19,
+        "title": "PUMA Men's Tazon 6 Fracture FM Cross-Trainer Shoe",
+        "price": 70,
+        "description": "Durable cross-trainer shoes from PUMA, featuring a sleek design and supportive fit. Ideal for workouts or casual wear.",
+        "categories": {
+            "gender": "men",
+            "type": "cross-trainer shoe",
+            "fashion": "shoes"
+        }
     },
     {
-      "id": 20,
-      "title": "Champion Men's Graphic Powerblend Fleece Crew",
-      "price": 24.99,
-      "description": "Graphic fleece crewneck sweatshirt from Champion, featuring a bold logo design. Made from soft and comfortable fabric.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/81NUx8dOe0L._AC_SX569_.jpg",
-        "back": "https://m.media-amazon.com/images/I/81I5Z6EYEzL._AC_SX569_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71iLxEScAiL._AC_SX569_.jpg"
-      },
-      "rating": {
-        "rate": 4.3,
-        "count": 150
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 20,
+        "title": "Champion Men's Graphic Powerblend Fleece Crew",
+        "price": 24.99,
+        "description": "Graphic fleece crewneck sweatshirt from Champion, featuring a bold logo design. Made from soft and comfortable fabric.",
+        "categories": {
+            "gender": "men",
+            "type": "graphic fleece crewneck sweatshirt",
+            "fashion": "casual"
+        }
     },
     {
-      "id": 21,
-      "title": "Fruit of the Loom Men's Stay Tucked Crew T-Shirt",
-      "price": 14.99,
-      "description": "Stay-tucked crewneck T-shirts from Fruit of the Loom, designed for comfort and durability. Multipack available in various colors.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71QvsUFBVOL._AC_SX679_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71sjZT2ovuL._AC_SX679_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71wuK7vqWoL._AC_SX679_.jpg"
-      },
-      "rating": {
-        "rate": 4.2,
-        "count": 190
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 21,
+        "title": "Fruit of the Loom Men's Stay Tucked Crew T-Shirt",
+        "price": 14.99,
+        "description": "Stay-tucked crewneck T-shirts from Fruit of the Loom, designed for comfort and durability. Multipack available in various colors.",
+        "categories": {
+            "gender": "men",
+            "type": "crew t-shirt",
+            "fashion": "casual"
+        }
     },
     {
-      "id": 22,
-      "title": "adidas Men's Samba Classic Soccer Shoe",
-      "price": 69.99,
-      "description": "Classic soccer shoes from Adidas, featuring a durable leather upper and rubber sole. Ideal for indoor or outdoor play.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/61RCqLlOmkL._AC_SY575_.jpg",
-        "back": "https://m.media-amazon.com/images/I/61Kw7S2E5XL._AC_SY575_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71qwXurBgRL._AC_SY575_.jpg"
-      },
-      "rating": {
-        "rate": 4.7,
-        "count": 220
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 22,
+        "title": "adidas Men's Samba Classic Soccer Shoe",
+        "price": 69.99,
+        "description": "Classic soccer shoes from Adidas, featuring a durable leather upper and rubber sole. Ideal for indoor or outdoor play.",
+        "categories": {
+            "gender": "men",
+            "type": "soccer shoe",
+            "fashion": "shoes"
+        }
     },
     {
-      "id": 23,
-      "title": "Wrangler Authentics Men's Classic Relaxed Fit Flex Jean",
-      "price": 24.99,
-      "description": "Relaxed-fit jeans from Wrangler Authentics, featuring a comfortable fit and flexible fabric. Perfect for casual wear.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/61pSZEnJFEL._AC_SY550_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71Nxo3NuFkL._AC_SY550_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71s6OErSz7L._AC_SY550_.jpg"
-      },
-      "rating": {
-        "rate": 4.3,
-        "count": 180
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 23,
+        "title": "Wrangler Authentics Men's Classic Relaxed Fit Flex Jean",
+        "price": 24.99,
+        "description": "Relaxed-fit jeans from Wrangler Authentics, featuring a comfortable fit and flexible fabric. Perfect for casual wear.",
+        "categories": {
+            "gender": "men",
+            "type": "relaxed fit flex jean",
+            "fashion": "casual"
+        }
     },
     {
-      "id": 24,
-      "title": "Skechers Men's Afterburn Memory-Foam Lace-up Sneaker",
-      "price": 49.95,
-      "description": "Memory foam lace-up sneakers from Skechers, offering comfort and support. Ideal for all-day wear or workouts.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/81y20ceCWsL._AC_SX575_.jpg",
-        "back": "https://m.media-amazon.com/images/I/81N6trrjHiL._AC_SX575_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81-hzx3oJEL._AC_SX575_.jpg"
-      },
-      "rating": {
-        "rate": 4.5,
-        "count": 210
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
+        "id": 24,
+        "title": "Skechers Men's Afterburn Memory-Foam Lace-up Sneaker",
+        "price": 49.95,
+        "description": "Memory foam lace-up sneakers from Skechers, offering comfort and support. Ideal for all-day wear or workouts.",
+        "categories": {
+            "gender": "men",
+            "type": "memory-foam lace-up sneaker",
+            "fashion": "shoes"
+        }
     },
     {
-      "id": 25,
-      "title": "Amazon Essentials Men's Lightweight Water-Resistant Packable Hooded Puffer Jacket",
-      "price": 39,
-      "description": "Lightweight and water-resistant packable jacket from Amazon Essentials, featuring a hood for added protection. Perfect for travel or outdoor activities.",
-      "category": "men's outerwear",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/81zISOvcSvL._AC_SY550_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71nTm60XdWL._AC_SY550_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71djitKXRXL._AC_SY550_.jpg"
+        "id": 25,
+        "title": "Amazon Essentials Men's Lightweight Water-Resistant Packable Hooded Puffer Jacket",
+        "price": 39,
+        "description": "Lightweight and water-resistant packable jacket from Amazon Essentials, featuring a hood for added protection. Perfect for travel or outdoor activities.",
+        "categories": {
+          "gender": "men",
+          "type": "packable hooded puffer jacket",
+          "fashion": "outerwear"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/81zISOvcSvL._AC_SY550_.jpg",
+          "back": "https://m.media-amazon.com/images/I/71nTm60XdWL._AC_SY550_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/71djitKXRXL._AC_SY550_.jpg"
+        },
+        "rating": {
+          "rate": 4.4,
+          "count": 200
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
       },
-      "rating": {
-        "rate": 4.4,
-        "count": 200
+      {
+        "id": 26,
+        "title": "Champion Men's Closed Bottom Light Weight Jersey Sweatpant",
+        "price": 15.99,
+        "description": "Comfortable jersey sweatpants from Champion, featuring a closed bottom design. Great for lounging or casual wear.",
+        "categories": {
+          "gender": "men",
+          "type": "jersey sweatpant",
+          "fashion": "clothes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/41hUvCAoexL._AC_SX569_.jpg",
+          "back": "https://m.media-amazon.com/images/I/41FAJYyaUBL._AC_SX569_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/41CMGJT6-lL._AC_SX569_.jpg"
+        },
+        "rating": {
+          "rate": 4.2,
+          "count": 230
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
       },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
+      {
+        "id": 27,
+        "title": "ASICS Men's Gel-Venture 7 Trail Running Shoes",
+        "price": 59.95,
+        "description": "Versatile trail running shoes from ASICS, featuring gel cushioning for comfort and support. Suitable for various terrains.",
+        "categories": {
+          "gender": "men",
+          "type": "trail running shoes",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/818IZE5T-nL._AC_SY675_.jpg",
+          "back": "https://m.media-amazon.com/images/I/81e+gLW-5pL._AC_SY695_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/81+WfHzkpaL._AC_SX575_.jpg"
+        },
+        "rating": {
+          "rate": 4.6,
+          "count": 240
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 28,
+        "title": "Under Armour Men's Charged Assert 8 Running Shoe",
+        "price": 70,
+        "description": "Lightweight and breathable running shoes from Under Armour, featuring charged cushioning for responsiveness. Ideal for running or workouts.",
+        "categories": {
+          "gender": "men",
+          "type": "running shoe",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71vcWhnLoyL._AC_SY695_.jpg",
+          "back": "https://m.media-amazon.com/images/I/61sLyBU-bkL._AC_SY695_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/81WpEeLrGyL._AC_SX575_.jpg"
+        },
+        "rating": {
+          "rate": 4.8,
+          "count": 270
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 29,
+        "title": "Dickies Men's Original 874 Work Pant",
+        "price": 22.99,
+        "description": "Classic work pants from Dickies, featuring a durable construction and wrinkle-resistant fabric. Perfect for tough jobs.",
+        "categories": {
+          "gender": "men",
+          "type": "work pant",
+          "fashion": "clothes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71q2xfGdWEL._AC_SY550_.jpg",
+          "back": "https://m.media-amazon.com/images/I/612Ou2mQtFL._AC_SY550_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/51fOs1iZEeL._AC_SX569_.jpg"
+        },
+        "rating": {
+          "rate": 4.4,
+          "count": 190
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 30,
+        "title": "Reebok Men's Classic Leather Sneaker",
+        "price": 75,
+        "description": "Iconic leather sneakers from Reebok, featuring a classic design and cushioned footbed. Suitable for everyday wear.",
+        "categories": {
+          "gender": "men",
+          "type": "leather sneaker",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://reebok.bynder.com/transform/75d12962-8712-4746-a322-7738893254f3/100074341_FLT_eCom-tif?io=transform:fit,width:1000&quality=100",
+          "back": "https://reebok.bynder.com/transform/473e4448-0b16-4edd-8c51-543a79087332/100074341_BLT_eCom-tif?io=transform:fit,width:1000&quality=100",
+          "dressed": "https://reebok.bynder.com/transform/7e0c9ce0-9f6c-47ab-919d-3722a2713a1a/100074341_TPP_eCom-tif?io=transform:fit,width:1000&quality=100"
+        },
+        "rating": {
+          "rate": 4.7,
+          "count": 210
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 31,
+        "title": "Nike Women's Revolution 5 Running Shoe",
+        "price": 65,
+        "description": "Versatile running shoes from Nike, featuring lightweight cushioning and a breathable upper. Ideal for running or everyday wear.",
+        "categories": {
+          "gender": "women",
+          "type": "running shoe",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cpnziuszxz5xgcffqjei/revolution-5-womens-road-running-shoes-hC41Vf.png",
+          "back": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/wqzfsbjizvpc2e6oc0bc/revolution-5-womens-road-running-shoes-hC41Vf.png",
+          "dressed": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/sb2djh3yoq9tvqozhxbk/revolution-5-womens-road-running-shoes-hC41Vf.png"
+        },
+        "rating": {
+          "rate": 4.7,
+          "count": 210
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 32,
+        "title": "Adidas Women's Cloudfoam Pure Running Shoe",
+        "price": 70,
+        "description": "Lightweight and comfortable running shoes from Adidas, featuring cloudfoam cushioning for support. Perfect for workouts or casual wear.",
+        "categories": {
+          "gender": "women",
+          "type": "running shoe",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71BeUZyIAtL._AC_SX695_.jpg",
+          "back": "https://m.media-amazon.com/images/I/71pvLsjrtlL._AC_SY575_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/81eWtZSykoL._AC_SY575_.jpg"
+        },
+        "rating": {
+          "rate": 4.8,
+          "count": 320
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 33,
+        "title": "Under Armour Women's Essential No-Show Socks",
+        "price": 18,
+        "description": "No-show socks from Under Armour, featuring moisture-wicking fabric for comfort and performance. Multipack available in various colors.",
+        "categories": {
+          "gender": "women",
+          "type": "no-show socks",
+          "fashion": "accessories"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71d-1Y9UxkL._AC_SX466_.jpg",
+          "back": "https://m.media-amazon.com/images/I/81ARLL+ke6L._AC_SX679_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/717eDfZeA8L._AC_SX522_.jpg"
+        },
+        "rating": {
+          "rate": 4.6,
+          "count": 150
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 34,
+        "title": "FILA Women's Disruptor II Sneaker",
+        "price": 65,
+        "description": "Chunky sneakers from FILA, featuring a retro-inspired design and cushioned footbed. Adds a trendy touch to any outfit.",
+        "categories": {
+          "gender": "women",
+          "type": "sneaker",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/51kHV9dpWBL._AC_SY500_.jpg",
+          "back": "https://m.media-amazon.com/images/I/5119Kn+ZI3L._AC_SY695_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/515wwfPxiYL._AC_SY695_.jpg"
+        },
+        "rating": {
+          "rate": 4.9,
+          "count": 280
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 35,
+        "title": "Champion Women's Powerblend Graphic Hoodie",
+        "price": 35,
+        "description": "Cozy graphic hoodie from Champion, featuring a soft fleece interior and bold logo design. Perfect for lounging or casual wear.",
+        "categories": {
+          "gender": "women",
+          "type": "graphic hoodie",
+          "fashion": "clothes"
+        },
+        "image": {
+          "front": "https://i.ebayimg.com/images/g/PeYAAOSwwX9fyLLJ/s-l1600.jpg",
+          "back": "https://i.ebayimg.com/images/g/PYsAAOSw0lxfyLLK/s-l960.jpg",
+          "dressed": "https://i.ebayimg.com/images/g/KOcAAOSwVJJfyLLJ/s-l960.jpg"
+        },
+        "rating": {
+          "rate": 4.4,
+          "count": 200
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 36,
+        "title": "Steve Madden Women's Kimmie Wedge Sandal",
+        "price": 59.95,
+        "description": "Stylish wedge sandals from Steve Madden, featuring a stretchy elastic strap for comfort and ease of wear. Perfect for summer outings.",
+        "categories": {
+          "gender": "women",
+          "type": "wedge sandal",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71HKXLkXXjL._AC_SY500_.jpg",
+          "back": "https://m.media-amazon.com/images/I/71dLRc8HiYL._AC_SY575_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/61BWQokxZaL._AC_SY575_.jpg"
+        },
+        "rating": {
+          "rate": 4.7,
+          "count": 220
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 37,
+        "title": "Calvin Klein Women's Modern Cotton Bralette",
+        "price": 28,
+        "description": "Comfortable bralette from Calvin Klein, featuring a modern cotton blend and iconic logo band. Provides light support and everyday comfort.",
+        "categories": {
+          "gender": "women",
+          "type": "bralette",
+          "fashion": "undergarments"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71yGv4wv-GL._AC_SY500_.jpg",
+          "back": "https://m.media-amazon.com/images/I/61MqA1D1GkL._AC_SY695_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/71yGv4wv-GL._AC_SY500_.jpg"
+        },
+        "rating": {
+          "rate": 4.5,
+          "count": 180
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 38,
+        "title": "Levi's Women's 721 High Rise Skinny Jeans",
+        "price": 49.99,
+        "description": "Classic high-rise skinny jeans from Levi's, featuring a figure-flattering fit and stretch denim fabric. Perfect for everyday wear.",
+        "categories": {
+          "gender": "women",
+          "type": "high-rise skinny jeans",
+          "fashion": "clothes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71EybZ4wyXL._AC_UY741_.jpg",
+          "back": "https://m.media-amazon.com/images/I/71f-Hg2MiYL._AC_UY550_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/71EybZ4wyXL._AC_UY741_.jpg"
+        },
+        "rating": {
+          "rate": 4.6,
+          "count": 250
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 39,
+        "title": "Ray-Ban Women's Rb4171 Erika Round Sunglasses",
+        "price": 153,
+        "description": "Stylish round sunglasses from Ray-Ban, featuring a classic design and polarized lenses for UV protection. Adds a chic touch to any outfit.",
+        "categories": {
+          "gender": "women",
+          "type": "round sunglasses",
+          "fashion": "accessories"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71hj0DcYjVL._AC_UL1500_.jpg",
+          "back": "https://m.media-amazon.com/images/I/71-zwScJ-PL._AC_UL1500_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/71hj0DcYjVL._AC_UL1500_.jpg"
+        },
+        "rating": {
+          "rate": 4.8,
+          "count": 300
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 40,
+        "title": "Fossil Women's Riley Stainless Steel Multifunction Glitz Quartz Watch",
+        "price": 119,
+        "description": "Elegant multifunction watch from Fossil, featuring a stainless steel construction and sparkling crystal accents. Adds a touch of sophistication to any ensemble.",
+        "categories": {
+          "gender": "women",
+          "type": "multifunction watch",
+          "fashion": "accessories"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71EFt69JK9L._AC_UX569_.jpg",
+          "back": "https://m.media-amazon.com/images/I/71kQyguRMfL._AC_UX522_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/71EFt69JK9L._AC_UX569_.jpg"
+        },
+        "rating": {
+          "rate": 4.7,
+          "count": 280
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 41,
+        "title": "Steve Madden Women's Carrson Dress Sandal",
+        "price": 89.95,
+        "description": "Chic dress sandals from Steve Madden, featuring a block heel and single toe strap. Adds a stylish touch to any evening ensemble.",
+        "categories": {
+          "gender": "women",
+          "type": "dress sandal",
+          "fashion": "shoes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/714-RmS62zL._AC_SY500_.jpg",
+          "back": "https://m.media-amazon.com/images/I/71QV5ciwneL._AC_SY500_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/714-RmS62zL._AC_SY500_.jpg"
+        },
+        "rating": {
+          "rate": 4.8,
+          "count": 310
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 42,
+        "title": "Timex Women's Easy Reader Leather Strap 30mm Watch",
+        "price": 34,
+        "description": "Classic analog watch from Timex, featuring an easy-to-read dial and genuine leather strap. Perfect for everyday wear or special occasions.",
+        "categories": {
+          "gender": "women",
+          "type": "analog watch",
+          "fashion": "accessories"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/71O8iXoHjKL._AC_UX679_.jpg",
+          "back": "https://m.media-amazon.com/images/I/81WanDDZ5nL._AC_UX522_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/71O8iXoHjKL._AC_UX679_.jpg"
+        },
+        "rating": {
+          "rate": 4.6,
+          "count": 260
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
+      },
+      {
+        "id": 43,
+        "title": "Amazon Essentials Women's 2-Pack Classic-Fit Short-Sleeve V-Neck T-Shirt",
+        "price": 18.5,
+        "description": "Classic-fit short-sleeve V-neck T-shirts from Amazon Essentials, available in a convenient 2-pack. Perfect for layering or wearing alone.",
+        "categories": {
+          "gender": "women",
+          "type": "classic-fit short-sleeve V-neck T-shirt",
+          "fashion": "clothes"
+        },
+        "image": {
+          "front": "https://m.media-amazon.com/images/I/61tQRbyI9hL._AC_UL1000_.jpg",
+          "back": "https://m.media-amazon.com/images/I/81oYxlVT3XL._AC_UL1000_.jpg",
+          "dressed": "https://m.media-amazon.com/images/I/61tQRbyI9hL._AC_UL1000_.jpg"
+        },
+        "rating": {
+          "rate": 4.5,
+          "count": 320
+        },
+        "discount": {
+          "amount": 0,
+          "percentage": 0
+        }
       }
-    },
-    {
-      "id": 26,
-      "title": "Champion Men's Closed Bottom Light Weight Jersey Sweatpant",
-      "price": 15.99,
-      "description": "Comfortable jersey sweatpants from Champion, featuring a closed bottom design. Great for lounging or casual wear.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/41hUvCAoexL._AC_SX569_.jpg",
-        "back": "https://m.media-amazon.com/images/I/41FAJYyaUBL._AC_SX569_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/41CMGJT6-lL._AC_SX569_.jpg"
-      },
-      "rating": {
-        "rate": 4.2,
-        "count": 230
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 27,
-      "title": "ASICS Men's Gel-Venture 7 Trail Running Shoes",
-      "price": 59.95,
-      "description": "Versatile trail running shoes from ASICS, featuring gel cushioning for comfort and support. Suitable for various terrains.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/818IZE5T-nL._AC_SY675_.jpg",
-        "back": "https://m.media-amazon.com/images/I/81e+gLW-5pL._AC_SY695_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81+WfHzkpaL._AC_SX575_.jpg"
-      },
-      "rating": {
-        "rate": 4.6,
-        "count": 240
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 28,
-      "title": "Under Armour Men's Charged Assert 8 Running Shoe",
-      "price": 70,
-      "description": "Lightweight and breathable running shoes from Under Armour, featuring charged cushioning for responsiveness. Ideal for running or workouts.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71vcWhnLoyL._AC_SY695_.jpg",
-        "back": "https://m.media-amazon.com/images/I/61sLyBU-bkL._AC_SY695_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81WpEeLrGyL._AC_SX575_.jpg"
-      },
-      "rating": {
-        "rate": 4.8,
-        "count": 270
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 29,
-      "title": "Dickies Men's Original 874 Work Pant",
-      "price": 22.99,
-      "description": "Classic work pants from Dickies, featuring a durable construction and wrinkle-resistant fabric. Perfect for tough jobs.",
-      "category": "men's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71q2xfGdWEL._AC_SY550_.jpg",
-        "back": "https://m.media-amazon.com/images/I/612Ou2mQtFL._AC_SY550_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/51fOs1iZEeL._AC_SX569_.jpg"
-      },
-      "rating": {
-        "rate": 4.4,
-        "count": 190
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 30,
-      "title": "Reebok Men's Classic Leather Sneaker",
-      "price": 75,
-      "description": "Iconic leather sneakers from Reebok, featuring a classic design and cushioned footbed. Suitable for everyday wear.",
-      "category": "men's shoes",
-      "image": {
-        "front": "https://reebok.bynder.com/transform/75d12962-8712-4746-a322-7738893254f3/100074341_FLT_eCom-tif?io=transform:fit,width:1000&quality=100",
-        "back": "https://reebok.bynder.com/transform/473e4448-0b16-4edd-8c51-543a79087332/100074341_BLT_eCom-tif?io=transform:fit,width:1000&quality=100",
-        "dressed": "https://reebok.bynder.com/transform/7e0c9ce0-9f6c-47ab-919d-3722a2713a1a/100074341_TPP_eCom-tif?io=transform:fit,width:1000&quality=100"
-      },
-      "rating": {
-        "rate": 4.7,
-        "count": 210
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 31,
-      "title": "Nike Women's Revolution 5 Running Shoe",
-      "price": 65,
-      "description": "Versatile running shoes from Nike, featuring lightweight cushioning and a breathable upper. Ideal for running or everyday wear.",
-      "categories": {},
-      "image": {
-        "front": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cpnziuszxz5xgcffqjei/revolution-5-womens-road-running-shoes-hC41Vf.png",
-        "back": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/wqzfsbjizvpc2e6oc0bc/revolution-5-womens-road-running-shoes-hC41Vf.png",
-        "dressed": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/sb2djh3yoq9tvqozhxbk/revolution-5-womens-road-running-shoes-hC41Vf.png"
-      },
-      "rating": {
-        "rate": 4.7,
-        "count": 210
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 32,
-      "title": "Adidas Women's Cloudfoam Pure Running Shoe",
-      "price": 70,
-      "description": "Lightweight and comfortable running shoes from Adidas, featuring cloudfoam cushioning for support. Perfect for workouts or casual wear.",
-      "category": "women's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71BeUZyIAtL._AC_SX695_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71pvLsjrtlL._AC_SY575_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81eWtZSykoL._AC_SY575_.jpg"
-      },
-      "rating": {
-        "rate": 4.8,
-        "count": 320
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 33,
-      "title": "Under Armour Women's Essential No-Show Socks",
-      "price": 18,
-      "description": "No-show socks from Under Armour, featuring moisture-wicking fabric for comfort and performance. Multipack available in various colors.",
-      "category": "women's accessories",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71d-1Y9UxkL._AC_SX466_.jpg",
-        "back": "https://m.media-amazon.com/images/I/81ARLL+ke6L._AC_SX679_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/717eDfZeA8L._AC_SX522_.jpg"
-      },
-      "rating": {
-        "rate": 4.6,
-        "count": 150
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 34,
-      "title": "FILA Women's Disruptor II Sneaker",
-      "price": 65,
-      "description": "Chunky sneakers from FILA, featuring a retro-inspired design and cushioned footbed. Adds a trendy touch to any outfit.",
-      "category": "women's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/51kHV9dpWBL._AC_SY500_.jpg",
-        "back": "https://m.media-amazon.com/images/I/5119Kn+ZI3L._AC_SY695_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/515wwfPxiYL._AC_SY695_.jpg"
-      },
-      "rating": {
-        "rate": 4.9,
-        "count": 280
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 35,
-      "title": "Champion Women's Powerblend Graphic Hoodie",
-      "price": 35,
-      "description": "Cozy graphic hoodie from Champion, featuring a soft fleece interior and bold logo design. Perfect for lounging or casual wear.",
-      "category": "women's clothing",
-      "image": {
-        "front": "https://i.ebayimg.com/images/g/PeYAAOSwwX9fyLLJ/s-l1600.jpg",
-        "back": "https://i.ebayimg.com/images/g/PYsAAOSw0lxfyLLK/s-l960.jpg",
-        "dressed": "https://i.ebayimg.com/images/g/KOcAAOSwVJJfyLLJ/s-l960.jpg"
-      },
-      "rating": {
-        "rate": 4.4,
-        "count": 200
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 36,
-      "title": "Steve Madden Women's Kimmie Wedge Sandal",
-      "price": 59.95,
-      "description": "Stylish wedge sandals from Steve Madden, featuring a stretchy elastic strap for comfort and ease of wear. Perfect for summer outings.",
-      "category": "women's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71HKXLkXXjL._AC_SY500_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71dLRc8HiYL._AC_SY575_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/61BWQokxZaL._AC_SY575_.jpg"
-      },
-      "rating": {
-        "rate": 4.7,
-        "count": 220
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 37,
-      "title": "Amazon Essentials Women's 2-Pack Classic-Fit Short-Sleeve V-Neck T-Shirt",
-      "price": 18.5,
-      "description": "Classic-fit V-neck T-shirts from Amazon Essentials, made from soft and comfortable fabric. Multipack available in various colors.",
-      "category": "women's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71bKUwfUXkL._AC_SX569_.jpg",
-        "back": "https://m.media-amazon.com/images/I/81ymKoOG0wL._AC_SX522_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81UhxxY0NzL._AC_SX466_.jpg"
-      },
-      "rating": {
-        "rate": 4.3,
-        "count": 180
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 38,
-      "title": "Skechers Women's D'Lites Memory Foam Lace-up Sneaker",
-      "price": 49.95,
-      "description": "Memory foam lace-up sneakers from Skechers, offering comfort and support for all-day wear. Features a retro-inspired design.",
-      "category": "women's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/81d7EKQpMXL._AC_SX575_.jpg",
-        "back": "https://m.media-amazon.com/images/I/714FkdiO6HL._AC_SY695_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/81IomSDnqDL._AC_SX575_.jpg"
-      },
-      "rating": {
-        "rate": 4.5,
-        "count": 250
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 39,
-      "title": "Columbia Women's Newton Ridge Plus Waterproof Amped Hiking Boot",
-      "price": 89.95,
-      "description": "Waterproof hiking boots from Columbia, featuring durable construction and superior traction. Ideal for hiking and outdoor activities.",
-      "category": "women's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/71PVHHgMsML._AC_SY695_.jpg",
-        "back": "https://m.media-amazon.com/images/I/61LbQPfvuyL._AC_SY575_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/716kDp5CtDL._AC_SY575_.jpg"
-      },
-      "rating": {
-        "rate": 4.6,
-        "count": 300
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 40,
-      "title": "adidas Women's Essentials Linear Logo Pants",
-      "price": 35,
-      "description": "Comfortable pants from Adidas, featuring the linear logo design and an elastic waistband for a snug fit. Perfect for workouts or casual wear.",
-      "category": "women's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/61QqmbzMo6L._AC_SX569_.jpg",
-        "back": "https://m.media-amazon.com/images/I/71skzwikqQL._AC_SX569_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/71IDbxAXEKL._AC_SX569_.jpg"
-      },
-      "rating": {
-        "rate": 4.4,
-        "count": 220
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 41,
-      "title": "ASICS Women's Gel-Venture 7 Running Shoes",
-      "price": 64.95,
-      "description": "Versatile running shoes from ASICS, featuring gel cushioning for comfort and support. Suitable for various terrains.",
-      "category": "women's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/512U5SqcflL._AC_SX625_.jpg",
-        "back": "https://m.media-amazon.com/images/I/51yWACZsRNL._AC_SX625_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/61ZwBpz864L._AC_SX625_.jpg"
-      },
-      "rating": {
-        "rate": 4.6,
-        "count": 280
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 42,
-      "title": "New Balance Women's FuelCore Nergize V1 Sneaker",
-      "price": 64.95,
-      "description": "Lightweight sneakers from New Balance, featuring a comfortable slip-on design and supportive cushioning. Perfect for everyday wear.",
-      "category": "women's shoes",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/61C9ij9FwNL._AC_SY575_.jpg",
-        "back": "https://m.media-amazon.com/images/I/51wd0UkIUUL._AC_SY575_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/61R1dqnjRJL._AC_SY575_.jpg"
-      },
-      "rating": {
-        "rate": 4.5,
-        "count": 240
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    },
-    {
-      "id": 43,
-      "title": "Amazon Essentials Women's Lightweight V-Neck Sweater",
-      "price": 20,
-      "description": "Lightweight V-neck sweater from Amazon Essentials, made from soft and breathable fabric. Versatile and perfect for layering.",
-      "category": "women's clothing",
-      "image": {
-        "front": "https://m.media-amazon.com/images/I/81oN1oA934L._AC_SX466_.jpg",
-        "back": "https://m.media-amazon.com/images/I/51l0OZHBFxL._AC_SY550_.jpg",
-        "dressed": "https://m.media-amazon.com/images/I/91HIcvtxvOL._AC_SY550_.jpg"
-      },
-      "rating": {
-        "rate": 4.4,
-        "count": 210
-      },
-      "discount": {
-        "amout": 0,
-        "precentage": 0
-      }
-    }
   ],
   "comments": [
     {

@@ -3,7 +3,7 @@ import MessageIcon from "../assets/images/Vector.svg";
 const Cta = () => {
   return (
     <form
-      className="absolute bg-secondory w-[90%] flex p-4 justify-between rounded-xl top-[-115px] items-center 
+      className="absolute bg-secondory w-[90%] flex p-4 justify-between rounded-xl top-[-115px] left-12 small:left-6 items-center 
     xLarge:top-[-125px] medium:flex-wrap small:w-[85%] small:mt-[-35px]"
     >
       <h1 className=" text-primary font-secondary text-4xl w-[69%] large:text-3xl medium:w-full mb-2">
