@@ -1,11 +1,12 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-interface Products {
+export interface Product {
   id: number;
   title: string;
+  description: string;
   price: number;
-  image: { font: string; back: string; dressed: string };
+  image: { front: string; back: string; dressed: string };
   category: string;
   rating: { rate: string };
   discount: { amout: number; percentage: number };
@@ -31,7 +32,7 @@ const useFetchData = <T>(url: string) => {
 };
 
 const usePostData = () => {
-  const postData = async (url: string, newData: Products) => {
+  const postData = async (url: string, newData: Product) => {
     try {
       const response = await axios.post(url, newData);
       return response.data;

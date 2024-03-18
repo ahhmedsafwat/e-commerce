@@ -1,34 +1,16 @@
-import { useFetchData } from "../../helper/useFectchApi";
-import ProductSkeleton from "../loader/ProductSkeleton";
-interface Products {
-  id: number;
-  title: string;
-  price: number;
-  image: { font: string; back: string; dressed: string };
-  category: string;
-  rating: { rate: string };
-  discount: { amout: number; percentage: number };
+import { Product } from "../../helper/useFectchApi";
+interface ProductItemsProps {
+  products: Product[] | undefined;
 }
-
-const ProductItem = () => {
-  const { fakeData, isPending, error } = useFetchData<Products[]>(
-    `http://localhost:8000/products/?_start=0&_end=4`
-  );
-
-  if (error) return `There was an error : ${error.message}`;
-  if (isPending)
-    return (
-      <div className="flex justify-between items-center">
-        <ProductSkeleton />
-        <ProductSkeleton />
-        <ProductSkeleton />
-        <ProductSkeleton />
-      </div>
-    );
-  return fakeData?.map((product) => (
-    <div key={product.id}>
-      <div>
-        <img src={product.image.font} alt={`${product.image}`} />
+const ProductItems = (props: ProductItemsProps) => {
+  return props.products?.map((product) => (
+    <div key={product.id} className="">
+      <div className="size-72 items-center ">
+        <img
+          src={product.image.front}
+          alt={`${product.description}`}
+          className="max-w-72 max-h-72 object-cover"
+        />
       </div>
       <h3 className="text-3xl">{product.title}</h3>
       <div>
@@ -49,4 +31,4 @@ const ProductItem = () => {
   ));
 };
 
-export default ProductItem;
+export default ProductItems;

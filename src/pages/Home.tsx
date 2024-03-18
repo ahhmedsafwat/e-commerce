@@ -1,15 +1,15 @@
 import Hero from "./Hero/Hero";
 import Brands from "../components/Brands/Brands";
-import Reviews from "../components/Reviews/Reviews";
-import ProductItem from "../components/Productitem/Productitem";
+// import Reviews from "../components/Reviews/Reviews";
+import NewArrivals from "./Newarrivals/Newarrivals";
 
 const Home = () => {
   return (
     <main>
       <Hero />
       <Brands />
-      <ProductItem />
-      <Reviews />
+      <NewArrivals />
+      {/* <Reviews /> */}
     </main>
   );
 };
