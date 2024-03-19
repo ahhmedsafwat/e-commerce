@@ -8,7 +8,7 @@ const Content = ()=>{
     const handleScrollLeft = () => {
         if (scrollableContentRef.current) {
             scrollableContentRef.current?.scrollBy({
-            left: -150,
+            left: -550,
             behavior: 'smooth',
         });
         }

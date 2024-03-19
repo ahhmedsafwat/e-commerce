@@ -7,8 +7,8 @@ export interface Product {
   description: string;
   price: number;
   image: { front: string; back: string; dressed: string };
-  category: string;
-  rating: { rate: string };
+  categories: {gender: string; type: string; fashion: string};
+  rating: { rate: number };
   discount: { amout: number; percentage: number };
 }
 
