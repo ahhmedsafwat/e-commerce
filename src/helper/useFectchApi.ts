@@ -7,9 +7,9 @@ export interface Product {
   description: string;
   price: number;
   image: { front: string; back: string; dressed: string };
-  categories: {gender: string; type: string; fashion: string};
+  categories: { gender: string; type: string; fashion: string };
   rating: { rate: number };
-  discount: { amout: number; percentage: number };
+  discount: { amount: number; percentage: number };
 }
 
 const useFetchData = <T>(url: string) => {
