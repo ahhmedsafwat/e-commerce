@@ -9,16 +9,17 @@ export interface Product {
   image: { front: string; back: string; dressed: string };
   categories: { gender: string; type: string; fashion: string };
   rating: { rate: number };
-  discount: { amount: number; percentage: number };
+  amount: number;
 }
 
-const useFetchData = <T>(url: string) => {
+const useFetchData = <T>(url: string, queryKey: string) => {
   const {
     isPending,
     error,
     data: fakeData,
   } = useQuery<T>({
-    queryKey: ["fake"],
+    queryKey: [queryKey],
+
     queryFn: async () => {
       const response = await axios({
         url: url,

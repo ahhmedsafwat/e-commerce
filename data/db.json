@@ -19,10 +19,7 @@
         "rate": 3.9,
         "count": 120
       },
-      "discount": {
-        "amount": 23,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
         "rate": 4.5,
         "count": 350
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 3,
@@ -67,10 +61,7 @@
         "rate": 4.8,
         "count": 250
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 4,
@@ -91,10 +82,7 @@
         "rate": 4.3,
         "count": 180
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 5,
@@ -115,10 +103,7 @@
         "rate": 4.7,
         "count": 200
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 6,
@@ -139,10 +124,7 @@
         "rate": 4.2,
         "count": 150
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 7,
@@ -163,10 +145,7 @@
         "rate": 4.4,
         "count": 220
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 8,
@@ -187,10 +166,7 @@
         "rate": 4.6,
         "count": 180
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 9,
@@ -211,10 +187,7 @@
         "rate": 4.5,
         "count": 190
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 10,
@@ -235,10 +208,7 @@
         "rate": 4.3,
         "count": 120
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 11,
@@ -259,10 +229,7 @@
         "rate": 4.2,
         "count": 280
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 12,
@@ -283,10 +250,7 @@
         "rate": 4.6,
         "count": 210
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 13,
@@ -307,10 +271,7 @@
         "rate": 4.4,
         "count": 150
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 14,
@@ -331,10 +292,7 @@
         "rate": 4.7,
         "count": 190
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 15,
@@ -355,10 +313,7 @@
         "rate": 4.9,
         "count": 280
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 16,
@@ -379,10 +334,7 @@
         "rate": 4.3,
         "count": 220
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 17,
@@ -403,10 +355,7 @@
         "rate": 4.6,
         "count": 230
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 18,
@@ -427,10 +376,7 @@
         "rate": 4.4,
         "count": 180
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 19,
@@ -451,10 +397,7 @@
         "rate": 4.5,
         "count": 200
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 20,
@@ -475,10 +418,7 @@
         "rate": 4.3,
         "count": 150
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 21,
@@ -499,10 +439,7 @@
         "rate": 4.2,
         "count": 190
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 22,
@@ -523,10 +460,7 @@
         "rate": 4.3,
         "count": 150
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 23,
@@ -547,10 +481,7 @@
         "rate": 4.3,
         "count": 150
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 24,
@@ -571,10 +502,7 @@
         "rate": 4.3,
         "count": 150
       },
-      "discount": {
-        "amount": 0,
-        "precentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 25,
@@ -595,10 +523,7 @@
         "rate": 4.4,
         "count": 200
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 26,
@@ -619,10 +544,7 @@
         "rate": 4.2,
         "count": 230
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 27,
@@ -643,10 +565,7 @@
         "rate": 4.6,
         "count": 240
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 28,
@@ -667,10 +586,7 @@
         "rate": 4.8,
         "count": 270
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 29,
@@ -691,10 +607,7 @@
         "rate": 4.4,
         "count": 190
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 30,
@@ -715,10 +628,7 @@
         "rate": 4.7,
         "count": 210
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 31,
@@ -739,10 +649,7 @@
         "rate": 4.7,
         "count": 210
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 32,
@@ -763,10 +670,7 @@
         "rate": 4.8,
         "count": 320
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 33,
@@ -787,10 +691,7 @@
         "rate": 4.6,
         "count": 150
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 34,
@@ -811,10 +712,7 @@
         "rate": 4.9,
         "count": 280
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 35,
@@ -835,10 +733,7 @@
         "rate": 4.4,
         "count": 200
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 36,
@@ -859,10 +754,7 @@
         "rate": 4.7,
         "count": 220
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 38,
@@ -883,10 +775,7 @@
         "rate": 4.6,
         "count": 250
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 39,
@@ -907,10 +796,7 @@
         "rate": 4.8,
         "count": 300
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 40,
@@ -931,10 +817,7 @@
         "rate": 4.7,
         "count": 280
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 41,
@@ -955,10 +838,7 @@
         "rate": 4.8,
         "count": 310
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 42,
@@ -979,10 +859,7 @@
         "rate": 4.6,
         "count": 260
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     },
     {
       "id": 43,
@@ -1003,10 +880,7 @@
         "rate": 4.5,
         "count": 320
       },
-      "discount": {
-        "amount": 0,
-        "percentage": 0
-      }
+      "amount": 0
     }
   ],
   "comments": [

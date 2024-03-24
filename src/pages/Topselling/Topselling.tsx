@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import ProductItems from "../../components/Productitem/Productitem";
 import ProductSkeleton from "../../components/loader/ProductSkeleton";
 import { Product, useFetchData } from "../../helper/useFectchApi";
-const NewArrivals = () => {
+const Topselling = () => {
   const { fakeData, isPending, error } = useFetchData<Product[]>(
-    `http://localhost:8000/products?_start=0&_end=4`,
-    "newarrivals"
+    `http://localhost:8000/products?_start=5&_end=9`,
+    "topseller"
   );
   if (error) return `There was an error : ${error.message}`;
   if (isPending)
@@ -19,7 +19,7 @@ const NewArrivals = () => {
     );
   return (
     <div className=" py-16 px-20 xLarge:px-5 medium:px-8">
-      <h1 className="text-center text-5xl font-secondary">New Arrivals</h1>
+      <h1 className="text-center text-5xl font-secondary">Top Selling</h1>
       <div className="grid grid-cols-4 large:grid-cols-2 gap-[1%] small:flex mt-14 mb-8 overflow-hidden place-items-center ">
         <ProductItems products={fakeData} />
       </div>
@@ -33,4 +33,4 @@ const NewArrivals = () => {
   );
 };
 
-export default NewArrivals;
+export default Topselling;
