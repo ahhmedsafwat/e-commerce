@@ -11,6 +11,15 @@ export interface Product {
   rating: { rate: number };
   amount: number;
 }
+export interface Comment{
+  id: number;
+  comment: string;
+  person:{
+    firstName:string,
+    secondName: string
+  },
+  
+}
 
 const useFetchData = <T>(url: string, queryKey: string) => {
   const {
@@ -44,5 +53,7 @@ const usePostData = () => {
 
   return { postData };
 };
+
+
 
 export { useFetchData, usePostData };

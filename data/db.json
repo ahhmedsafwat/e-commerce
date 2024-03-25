@@ -7,8 +7,8 @@
       "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
       "categories": {
         "gender": "men",
-        "type": "outdoor",
-        "fashion": "backpack"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/818GEE8ygUL._AC_SL1500_.jpg",
@@ -28,8 +28,8 @@
       "description": "Classic regular-fit jeans ideal for everyday wear. Made from durable denim fabric. Available in various sizes and washes.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "jeans"
+        "type": "jeans",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61wAYYRiDmL._AC_SY606_.jpg",
@@ -49,8 +49,8 @@
       "description": "Iconic Adidas Superstar sneakers featuring the classic shell toe design. Comfortable and stylish for casual wear.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "sneaker"
+        "type": "sneaker",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71BKudGlMCL._AC_SY625_.jpg",
@@ -70,8 +70,8 @@
       "description": "Stay dry and comfortable in this waterproof jacket from The North Face. Perfect for outdoor adventures and daily commutes.",
       "categories": {
         "gender": "men",
-        "type": "outdoor",
-        "fashion": "jacket"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/810dA0mugGL._AC_SX522_.jpg",
@@ -91,8 +91,8 @@
       "description": "Durable and waterproof ankle boots from Timberland. Great for hiking and outdoor activities. Available in various sizes.",
       "categories": {
         "gender": "men",
-        "type": "outdoor",
-        "fashion": "boot"
+        "type": "boot",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/91c919JN0UL._AC_SY575_.jpg",
@@ -112,8 +112,8 @@
       "description": "Classic short sleeve T-shirt from Carhartt, ideal for workwear or casual wear. Features a chest pocket and durable construction.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "t-shirt"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/814hp8QMsjL._AC_SY741_.jpg",
@@ -133,8 +133,8 @@
       "description": "Lightweight and packable rain jacket from Columbia. Features waterproof fabric and adjustable hood. Perfect for outdoor activities.",
       "categories": {
         "gender": "men",
-        "type": "outdoor",
-        "fashion": "jacket"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/610ThimBpNL._AC_SX569_.jpg",
@@ -154,8 +154,8 @@
       "description": "Comfortable and moisture-wicking short sleeve T-shirt from Under Armour. Perfect for workouts or everyday wear.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "t-shirt"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/619tEAGyDJL._AC_SX569_.jpg",
@@ -175,8 +175,8 @@
       "description": "Versatile cross  from New Balance. Provides comfort and support for various activities. Available in different colors.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "trainer shoes"
+        "type": "trainer",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61gAg7kNlXL._AC_SX575_.jpg",
@@ -196,8 +196,8 @@
       "description": "Moisture-wicking crew socks from Dickies, designed for all-day comfort. Multipack available in various colors.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "socks"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/81VdUJHmd0L._AC_SX569_.jpg",
@@ -218,7 +218,7 @@
       "categories": {
         "gender": "men",
         "type": "jeans",
-        "fashion": "Flex jeans"
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71gRW5JhqcL._AC_SY550_.jpg",
@@ -238,8 +238,8 @@
       "description": "Sporty lace-up sneakers from Skechers, featuring a cushioned insole and supportive design. Ideal for walking or casual activities.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "sneaker"
+        "type": "sneaker",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/711EPhthmML._AC_SY695_.jpg",
@@ -259,8 +259,8 @@
       "description": "Comfortable long sleeve henley shirt from Hanes, made from soft and durable fabric. Great for layering or standalone wear.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "t-shirt"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61yIuDUDPBL._AC_SX569_.jpg",
@@ -280,8 +280,8 @@
       "description": "Classic track jacket from Adidas featuring the iconic 3-stripes design. Made from comfortable tricot fabric.",
       "categories": {
         "gender": "men",
-        "type": "outdoor",
-        "fashion": "jacket"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61QdaioQnKS._AC_SY741_.jpg",
@@ -301,8 +301,8 @@
       "description": "High-performance cross trainer sneakers from Reebok, designed for intense workouts. Features a durable outsole and cushioned midsole.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "sneaker"
+        "type": "sneaker",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/712x8WDd0oL._AC_SY695_.jpg",
@@ -322,8 +322,8 @@
       "description": "Cozy fleece pullover hoodie from Champion, featuring a kangaroo pocket and adjustable drawstring hood. Perfect for layering.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "pullover hoodie"
+        "type": "sneaker",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/514BAwuax+L._AC_SX679_.jpg",
@@ -365,7 +365,7 @@
       "categories": {
         "gender": "men",
         "type": "jeans",
-        "fashion": "Stretch Jeans"
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/81YSzSA2KAL._AC_SY550_.jpg",
@@ -385,8 +385,8 @@
       "description": "Durable cross-trainer shoes from PUMA, featuring a sleek design and supportive fit. Ideal for workouts or casual wear.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "Cross-Trainer"
+        "type": "trainer",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71rRIFbBZbL._AC_SY500_.jpg",
@@ -406,8 +406,8 @@
       "description": "Graphic fleece crewneck sweatshirt from Champion, featuring a bold logo design. Made from soft and comfortable fabric.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "sweatshirt"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/81NUx8dOe0L._AC_SX569_.jpg",
@@ -427,8 +427,8 @@
       "description": "Stay-tucked crewneck T-shirts from Fruit of the Loom, designed for comfort and durability. Multipack available in various colors.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "t-shirt"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71QvsUFBVOL._AC_SX679_.jpg",
@@ -448,8 +448,8 @@
       "description": "Classic soccer shoes from Adidas, featuring a durable leather upper and rubber sole. Ideal for indoor or outdoor play.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "soccer"
+        "type": "trainer",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/781bb3b33c114d7e9b82a33c00988890_9366/Samba_Classic_Black_034563_02_standard_hover.jpg",
@@ -470,7 +470,7 @@
       "categories": {
         "gender": "men",
         "type": "jeans",
-        "fashion": "Flex jean"
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61pSZEnJFEL._AC_SY741_.jpg",
@@ -490,8 +490,8 @@
       "description": "Memory foam lace-up sneakers from Skechers, offering comfort and support. Ideal for all-day wear or workouts.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "sneaker"
+        "type": "sneaker",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://www.skechers.com/dw/image/v2/BDCN_PRD/on/demandware.static/-/Sites-skechers-master/default/dwe224e6f6/images/large/50125_PBBK.jpg?sw=800",
@@ -511,8 +511,8 @@
       "description": "Lightweight and water-resistant packable jacket from Amazon Essentials, featuring a hood for added protection. Perfect for travel or outdoor activities.",
       "categories": {
         "gender": "men",
-        "type": "outdoor",
-        "fashion": "jacket"
+        "type": "sneaker",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/811IL5eplGL._AC_SX679_.jpg",
@@ -532,8 +532,8 @@
       "description": "Comfortable jersey sweatpants from Champion, featuring a closed bottom design. Great for lounging or casual wear.",
       "categories": {
         "gender": "men",
-        "type": "casual",
-        "fashion": "clothes"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/41hUvCAoexL._AC_SX569_.jpg",
@@ -553,8 +553,8 @@
       "description": "Versatile trail running shoes from ASICS, featuring gel cushioning for comfort and support. Suitable for various terrains.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "Trail Running"
+        "type": "trainer",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/818IZE5T-nL._AC_SY675_.jpg",
@@ -574,8 +574,8 @@
       "description": "Lightweight and breathable running shoes from Under Armour, featuring charged cushioning for responsiveness. Ideal for running or workouts.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "running shoe"
+        "type": "trainer",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71vcWhnLoyL._AC_SY695_.jpg",
@@ -595,8 +595,8 @@
       "description": "Classic work pants from Dickies, featuring a durable construction and wrinkle-resistant fabric. Perfect for tough jobs.",
       "categories": {
         "gender": "men",
-        "type": "outdoor",
-        "fashion": "work pant"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71q2xfGdWEL._AC_SY550_.jpg",
@@ -616,8 +616,8 @@
       "description": "Iconic leather sneakers from Reebok, featuring a classic design and cushioned footbed. Suitable for everyday wear.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "sneaker"
+        "type": "sneaker",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://reebok.bynder.com/transform/75d12962-8712-4746-a322-7738893254f3/100074341_FLT_eCom-tif?io=transform:fit,width:1000&quality=100",
@@ -637,8 +637,8 @@
       "description": "Versatile running shoes from Nike, featuring lightweight cushioning and a breathable upper. Ideal for running or everyday wear.",
       "categories": {
         "gender": "women",
-        "type": "shoes",
-        "fashion": "running shoe"
+        "type": "trainer",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cpnziuszxz5xgcffqjei/revolution-5-womens-road-running-shoes-hC41Vf.png",
@@ -658,8 +658,8 @@
       "description": "Lightweight and comfortable running shoes from Adidas, featuring cloudfoam cushioning for support. Perfect for workouts or casual wear.",
       "categories": {
         "gender": "women",
-        "type": "shoes",
-        "fashion": "running shoes"
+        "type": "trainer",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71BeUZyIAtL._AC_SX695_.jpg",
@@ -679,8 +679,8 @@
       "description": "No-show socks from Under Armour, featuring moisture-wicking fabric for comfort and performance. Multipack available in various colors.",
       "categories": {
         "gender": "women",
-        "type": "outdoor",
-        "fashion": "socks"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71d-1Y9UxkL._AC_SX466_.jpg",
@@ -700,8 +700,8 @@
       "description": "Chunky sneakers from FILA, featuring a retro-inspired design and cushioned footbed. Adds a trendy touch to any outfit.",
       "categories": {
         "gender": "women",
-        "type": "shoes",
-        "fashion": "sneaker"
+        "type": "sneaker",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/51kHV9dpWBL._AC_SY500_.jpg",
@@ -721,8 +721,8 @@
       "description": "Cozy graphic hoodie from Champion, featuring a soft fleece interior and bold logo design. Perfect for lounging or casual wear.",
       "categories": {
         "gender": "women",
-        "type": "outdoor",
-        "fashion": "Hoodie"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://i.ebayimg.com/images/g/PeYAAOSwwX9fyLLJ/s-l1600.jpg",
@@ -742,8 +742,8 @@
       "description": "Stylish wedge sandals from Steve Madden, featuring a stretchy elastic strap for comfort and ease of wear. Perfect for summer outings.",
       "categories": {
         "gender": "women",
-        "type": "shoes",
-        "fashion": "Wedge Sandal"
+        "type": "outdoor",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71HKXLkXXjL._AC_SY500_.jpg",
@@ -763,8 +763,8 @@
       "description": "Classic high-rise skinny jeans from Levi's, featuring a figure-flattering fit and stretch denim fabric. Perfect for everyday wear.",
       "categories": {
         "gender": "women",
-        "type": "jeans",
-        "fashion": "Skinny Jeans"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/81UH9WYo-lL._AC_SX466_.jpg",
@@ -785,7 +785,7 @@
       "categories": {
         "gender": "women",
         "type": "outdoor",
-        "fashion": "Sunglasses"
+        "fashion": "casual"
       },
       "image": {
         "front": "https://images2.ray-ban.com//cdn-record-files-pi/6cce630f-dac3-4053-99e7-a359001e45fb/b4ea4968-2c7d-4664-b8dd-ad330149fba9/0RB4171__865_13__STD__shad__qt.png?impolicy=RB_Product_clone&width=1024&bgc=%23f2f2f2",
@@ -806,7 +806,7 @@
       "categories": {
         "gender": "women",
         "type": "outdoor",
-        "fashion": "Watch"
+        "fashion": "casual"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/81OuFigrPIS._AC_SX522_.jpg",
@@ -826,8 +826,8 @@
       "description": "Chic dress sandals from Steve Madden, featuring a block heel and single toe strap. Adds a stylish touch to any evening ensemble.",
       "categories": {
         "gender": "women",
-        "type": "shoes",
-        "fashion": "Sandal"
+        "type": "outdoor",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://www.stevemadden.com/cdn/shop/files/STEVEMADDEN_SHOES_CARRSON_BLUSH-LEATHER_04_grande.jpg?v=1692112920",
@@ -848,7 +848,7 @@
       "categories": {
         "gender": "women",
         "type": "outdoor",
-        "fashion": "Watch"
+        "fashion": "casual"
       },
       "image": {
         "front": "https://timex.com/cdn/shop/products/TW2U96200.png?v=1686768381&width=900",
@@ -868,8 +868,8 @@
       "description": "Classic-fit short-sleeve V-neck T-shirts from Amazon Essentials, available in a convenient 2-pack. Perfect for layering or wearing alone.",
       "categories": {
         "gender": "women",
-        "type": "casual",
-        "fashion": "t-shirt"
+        "type": "clothes",
+        "fashion": "casual"
       },
       "image": {
         "front": "https://i.ebayimg.com/images/g/PX4AAOSwMh9iIuiz/s-l1600.jpg",
@@ -885,9 +885,68 @@
   ],
   "comments": [
     {
-      "id": "random id",
-      "name": "jhon",
-      "commnet": "lrom"
+      "id": 1,
+      "person":{
+          "firstName":"jhon",
+          "secondName": "doe"
+      } ,
+      "comment": "Absolutely love this store! The variety of styles and sizes available cater to everyone. Plus, the quality is top-notch!"
+    },
+    {
+      "id": 2,
+      "person":{
+          "firstName":"Mostafa",
+          "secondName": "Elsnoty"
+      } ,
+      "comment": "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."
+    },
+    {
+      "id": 3,
+      "person":{
+          "firstName":"Ahmed",
+          "secondName": "Sfwat"
+      } ,
+      "comment": "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+    }
+    ,{
+      "id": 4,
+      "person":{
+          "firstName":"jesica",
+          "secondName": "jack"
+      } ,
+      "comment": "As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."
+    },
+    {
+      "id": 5,
+      "person":{
+          "firstName":"peter",
+          "secondName": "Parker"
+      } ,
+      "comment": "This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."
+    },
+    {
+      "id": 6,
+      "person":{
+          "firstName":"mark",
+          "secondName": "man"
+      } ,
+      "comment": "I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."
+    },
+    {
+      "id": 7,
+      "person":{
+          "firstName":"Rami",
+          "secondName": "Barhoma"
+      } ,
+      "comment": "Impressed by the trendy yet affordable options here. It's rare to find such stylish clothes at such reasonable prices."
+    },
+    {
+      "id": 8,
+      "person":{
+          "firstName":"Bat",
+          "secondName": "Man"
+      } ,
+      "comment": "I appreciate how inclusive their sizing options are. It's refreshing to see a store that caters to all body types."
     }
   ]
 }
