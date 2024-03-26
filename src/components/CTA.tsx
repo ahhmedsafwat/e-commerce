@@ -14,7 +14,7 @@ const Cta = () => {
         <input
           type="text"
           placeholder="Enter your email address"
-          className="block p-2 rounded-full w-full mb-3 pl-10 outline-none border-none relative"
+          className="block p-2 rounded-full w-full mb-3 pl-10 outline-none border-none relative small:text-sm"
         />
         <button className="bg-primary p-2 rounded-full w-full font-satoshiBold">
           Subscribe to Newsletter

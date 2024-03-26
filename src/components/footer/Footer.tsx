@@ -2,7 +2,7 @@ import "./footer.css";
 import Links from "./Links";
 import CopyRights from "./Copyrights";
 import FooterItems from "./Footeritems";
-// import Cta from "../CTA";
+import Cta from "../CTA";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         <Links></Links>
         <FooterItems></FooterItems>
       </div>
-        {/* <Cta /> */}
+        <Cta />
       <hr className="border-2 mb-7 mt-7" />
       <CopyRights />
     </footer>
