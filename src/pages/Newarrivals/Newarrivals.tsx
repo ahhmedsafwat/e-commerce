@@ -25,12 +25,14 @@ const NewArrivals = () => {
           <ProductItems products={fakeData} />
         </div>
       )}
-      <Link
-        to={"/category page"}
-        className="block w-fit small:w-full text-center mx-auto mt-6 py-4 px-20 small:py-2 border rounded-[62px] font-satoshi500 hover:text-white hover:bg-black hover:shadow-lg  transition-colors duration-300"
-      >
-        view All
-      </Link>
+      <div>
+        <Link
+          to={"/category page"}
+          className="block w-fit small:w-full text-center mx-auto mt-6 py-4 px-20 small:py-2 border rounded-[62px] font-satoshi500 hover:text-white hover:bg-black hover:shadow-lg  transition-colors duration-300"
+        >
+          view All
+        </Link>
+      </div>
     </div>
   );
 };
