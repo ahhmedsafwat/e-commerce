@@ -1,5 +1,4 @@
 // import { useState } from "react";
-import { Ref, forwardRef } from "react";
 import { Comment } from "../../helper/useFectchApi";
 import { LuStar } from "react-icons/lu";
 
@@ -7,16 +6,12 @@ import { LuStar } from "react-icons/lu";
     comments: Comment[] | undefined;
   }
 
-const Content = forwardRef((props: CommentsProp, ref: Ref<HTMLDivElement>) => {
+const Content = (props: CommentsProp) => {
 
   return(
     <>
-      <div
-        className="flex pb-40 overflow-hidden w-full space-x-5 small:px-4 large:px-20 "
-        ref={ref}
-      >
         {props.comments?.map((comment)=>
-        <div key={comment.id} className="border-solid border-[1px] border-secondory rounded-xl min-w-[400px] p-4 z-20">
+        <div key={comment.id} className="border-solid border rounded-xl min-w-[400px] p-4 z-20">
           <div className="inline-flex mr-3">
           <LuStar className="fill-[#FFC633] stroke-none " size={25}></LuStar>
           <LuStar className="fill-[#FFC633] stroke-none " size={25}></LuStar>
@@ -29,13 +24,9 @@ const Content = forwardRef((props: CommentsProp, ref: Ref<HTMLDivElement>) => {
           
         </div>
         )}
-      </div>
-
-
 </>
-    
-    );
-})
+);
+}
 
 
 export default Content;
