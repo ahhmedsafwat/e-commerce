@@ -11,7 +11,9 @@ const Topselling = () => {
 
   return (
     <div className=" py-16 px-20 xLarge:px-5 medium:px-8">
-      <h1 className="text-center text-5xl font-secondary">Top Selling</h1>
+      <h1 className="text-center text-5xl medium:text-4xl small:text-3xl  font-secondary">
+        Top Selling
+      </h1>
       {isPending && (
         <div className="flex justify-between items-center py-16 xLarge:px-6 px-20 medium:px-8 medium:pt-28 small:pt-40">
           <ProductSkeleton />

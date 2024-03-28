@@ -32,8 +32,8 @@ const Reviews = () => {
   };
 
   return (
-    <div>
-      <div className=" px-24 py-6 small:px-4 large:px-20 relative">
+    <div className=" px-24 py-6 small:px-4 large:px-20 relative mb-40 ">
+      <div className="">
         <div className="flex justify-between items-center small:block">
           <h1 className="text-5xl font-secondary small:mb-6">
             OUR HAPPY CUSTOMERS

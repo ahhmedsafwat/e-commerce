@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Cart from "./pages/Cart/Cart";
 import Navbar from "./components/Navbar/Navbar";
 import Offer from "./components/Offer";
@@ -18,7 +18,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
             {/* <Route path="/signup"  element={}> */}
-            <Route path="/Categories" element={<Categories />}/>
+            <Route path="/Categories" element={<Categories />} />
           </Routes>
           <Footer />
         </Router>

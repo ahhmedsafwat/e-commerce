@@ -5,9 +5,6 @@ export default {
   theme: {
     extend: {
       screens: {
-        "2xl": { min: "1280px" },
-        // => @media (min-width: 1535px) { ... }
-
         xLarge: { max: "1279px" },
         // => @media (max-width: 1279px) { ... }
 

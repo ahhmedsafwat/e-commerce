@@ -8,17 +8,17 @@ const ProductItems = (props: ProductItemsProps) => {
   return props.products?.map((product) => (
     <div
       key={product.id}
-      className="py-5 px-4 border rounded-lg m-4 w-72 xLarge:w-64 h-[420px] xLarge:h-96 small:h-full "
+      className="py-5 px-4 small:px-3  border rounded-lg m-4  w-72 xLarge:w-64 large:w-80 h-[420px] xLarge:h-96 small:h-full "
     >
       <Link to={product.title}>
-        <div className=" flex items-center justify-center mb-6 size-64 xLarge:size-56">
+        <div className=" flex items-center justify-center mb-6  h-64 xLarge:h-56">
           <img
             src={product.image.front}
             alt={`${product.description}`}
             className="object-contain w-full h-full"
           />
         </div>
-        <h3 className="text-xl font-satoshiBold text-ellipsis overflow-hidden text-nowrap my-2  ">
+        <h3 className="text-xl  font-satoshiBold text-ellipsis overflow-hidden text-nowrap my-2  ">
           {product.title}
         </h3>
         <div className="flex items-center mb-2">
