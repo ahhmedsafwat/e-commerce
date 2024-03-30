@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { Product } from "../../helper/useFectchApi";
-import { LuStar, LuStarHalf } from "react-icons/lu";
-export interface ProductItemsProps {
 import Rating from "../Rating/Rating";
 interface ProductItemsProps {
   products: Product[] | undefined;
@@ -10,20 +8,20 @@ const ProductItems = (props: ProductItemsProps) => {
   return props.products?.map((product) => (
     <div
       key={product.id}
-      className="py-5 px-4 small:px-3 border rounded-lg m-4 w-72 xLarge:w-64 large:w-80 h-[420px] xLarge:h-96 small:h-full "
+      className="py-5 px-4 small:px-3 border rounded-lg m-4 w-72 xLarge:w-64 large:w-80 h-[420px] xLarge:h-96 small:w-64"
     >
       <Link to={`products/${product.id}/${product.title}`}>
-        <div className=" flex items-center justify-center mb-6  h-64 xLarge:h-56">
+        <div className=" flex items-center justify-center mb-6 h-64 xLarge:h-56">
           <img
             src={product.image.front}
             alt={`${product.description}`}
             className="object-contain w-full h-full"
           />
         </div>
-        <h3 className="text-xl  font-satoshiBold text-ellipsis overflow-hidden text-nowrap my-2  ">
+        <h3 className="text-xl font-satoshiBold text-ellipsis overflow-hidden text-nowrap my-2  ">
           {product.title}
         </h3>
-        <Rating rate={product.rating.rate}></Rating>
+        <Rating rate={product.rating.rate} size={20}></Rating>
         <div className="font-bold text-2xl flex items-center space-x-2">
           <div>${product.price}</div>
           {product.amount != 0 ? (

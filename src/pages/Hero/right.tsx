@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Button from "../../components/button";
 import Statistics from "./statistics";
 const Right = () => {
   return (
@@ -10,10 +12,12 @@ const Right = () => {
         designed to bring out your individuality and cater to your sense of
         style.
       </p>
-      <button className="font-satoshi500 bg-secondory text-primary p-2 rounded-full w-40 transition-colors duration-300 large:w-[45%] small:w-full hover:bg-primary hover:text-secondory hover:shadow-lg ">
-        Shop Now
-      </button>
-
+      <Link to="Categories">
+        <Button
+          className="large:w-[45%] small:w-full bg-secondory text-primary hover:bg-primary hover:text-secondory large:mx-auto medium:mx-0"
+          text="Shop Now"
+        />
+      </Link>
       <div className="flex  pt-6 font-satoshiBold text-2xl justify-between large:flex-wrap medium:justify-left small:justify-center ">
         <Statistics number="200+" string="International Brands" />
         <Statistics number="2,000+" string="High-Quality Products" />

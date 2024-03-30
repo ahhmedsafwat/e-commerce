@@ -23,7 +23,7 @@ const ProductDetails = () => {
         <span className="text-black">{product?.categories.type}</span>
       </div>
       <div className="py-16">
-        <ProductDetailsItem product={product} />
+        <ProductDetailsItem product={product!} />
       </div>
     </section>
   );

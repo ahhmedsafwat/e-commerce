@@ -2,6 +2,7 @@ import { LuStar } from "react-icons/lu";
 
 interface rating {
   rate: number;
+  size: number;
 }
 const Rating = (props: rating) => {
   return (
@@ -11,7 +12,8 @@ const Rating = (props: rating) => {
           return (
             <LuStar
               key={index}
-              className="stroke-none fill-[#FFC633] size-[18px]"
+              className={`stroke-none fill-[#FFC633] `}
+              size={props.size}
             ></LuStar>
           );
         })}
