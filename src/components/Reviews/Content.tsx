@@ -7,12 +7,11 @@ interface CommentsProp {
 }
 
 const Content = (props: CommentsProp) => {
-  return (
-    <>
-      {props.comments?.map((comment) => (
+  return props.comments?.map((comment) => (
+
         <div
           key={comment.id}
-          className="border-solid border rounded-xl min-w-[400px] p-4 z-20"
+          className="border-solid border rounded-xl p-4 z-20 min-w-[400px] small:min-w-[280px]"
         >
           <div className="inline-flex mr-3">
             <LuStar className="fill-[#FFC633] stroke-none " size={25}></LuStar>
@@ -26,9 +25,8 @@ const Content = (props: CommentsProp) => {
           </h1>
           <p className="font-satoshireguler">{comment.comment}</p>
         </div>
-      ))}
-    </>
-  );
+  
+  ));
 };
 
 export default Content;

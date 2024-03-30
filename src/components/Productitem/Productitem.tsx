@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Product } from "../../helper/useFectchApi";
+import { LuStar, LuStarHalf } from "react-icons/lu";
+export interface ProductItemsProps {
 import Rating from "../Rating/Rating";
 interface ProductItemsProps {
   products: Product[] | undefined;
