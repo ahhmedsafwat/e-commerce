@@ -6,6 +6,7 @@ import Offer from "./components/Offer";
 import Footer from "./components/footer/Footer";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Categories from "./pages/Category/Categories";
+import ProductDetails from "./pages/Productdetails/ProductDetails";
 const App = () => {
   const client = new QueryClient();
   return (
@@ -18,7 +19,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
             {/* <Route path="/signup"  element={}> */}
-            <Route path="/Categories" element={<Categories />} />
+            <Route path={`products/:id/*`} element={<ProductDetails />} />
+            <Route path="/Categories/:title" element={<Categories />} />
           </Routes>
           <Footer />
         </Router>

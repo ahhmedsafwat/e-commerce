@@ -1,0 +1,3 @@
+.product-detials-img {
+  @apply min-h-40 min-w-40 w-44 h-44 large:min-w-36 large:min-h-36 large:w-32 large:h-32 object-contain border rounded-lg p-2 bg-[#fcfcfc];
+}
