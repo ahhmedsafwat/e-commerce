@@ -1,50 +1,27 @@
-import { useState } from "react";
 import { Product } from "../../helper/useFectchApi";
 import "./productdetailsitem.css";
-import Rating from "../Rating/Rating";
+import Rating from "../utilities/Rating";
+import Button from "../button";
+import ProductDetailsImg from "./ProductDetailsimg";
+import { useState } from "react";
+import { LuPlus, LuMinus } from "react-icons/lu";
 interface Productitem {
   product: Product;
 }
 const ProductDetailsItem = (Props: Productitem) => {
-  const [chosedImage, setchosedImage] = useState("");
-  const handleClick = (
-    event: React.MouseEvent<HTMLImageElement, MouseEvent>
-  ) => {
-    const target = event.target as HTMLImageElement;
-    setchosedImage(target.src);
-  };
-
+  const sizes = ["Small", "Medium", "Large", "X-Large"];
+  const [count, setCount] = useState(1);
   return (
-    <div className="flex gap-8">
-      <div className="flex items-start flex-1  large:flex-col-reverse justify-between">
-        <div className="w-40 space-y-3 large:space-x-3 large:space-y-0 large:flex large:w-fit large:h-40 large:items-center  ">
-          <img
-            src={Props.product?.image.front}
-            alt="the front photo"
-            onClick={handleClick}
-            className="product-detials-img "
-          />
-          <img
-            src={Props.product?.image.back}
-            alt="the back photo"
-            onClick={handleClick}
-            className="product-detials-img "
-          />
-          <img
-            src={Props.product?.image.dressed}
-            alt="one more photo"
-            onClick={handleClick}
-            className="product-detials-img"
-          />
-        </div>
-        <img
-          src={chosedImage || Props.product?.image.front}
-          alt=""
-          className="w-[450px] h-[550px] object-contain ml-4 large:m-0"
-        />
-      </div>
-      <div className="flex flex-1 flex-col space-y-4">
-        <h1 className="text-4xl font-secondary ">{Props.product?.title}</h1>
+    <div className="flex gap-8 items-center large:items-start medium:flex-col medium:items-center">
+      <ProductDetailsImg
+        front={Props.product?.image.front}
+        back={Props.product?.image.back}
+        dressed={Props.product?.image.dressed}
+      />
+      <div className="flex flex-1 flex-col ">
+        <h1 className="text-4xl font-secondary large:text-3xl medium:text-2xl small:text-[20px]">
+          {Props.product?.title}
+        </h1>
         <Rating rate={Props.product?.rating.rate} size={25}></Rating>
         <div className="font-bold text-2xl flex items-center space-x-2 ">
           <div>${Props.product?.price}</div>
@@ -65,12 +42,47 @@ const ProductDetailsItem = (Props: Productitem) => {
             ""
           )}
         </div>
-        <div className="font-satoshireguler text-gray-600">
+        <div className="font-satoshireguler text-gray-600 small:text-sm">
           {Props.product?.description}
         </div>
-        <hr className="mt-6" />
-        <div className="">
-          <div>Choose Size</div>
+        <hr className="mt-8" />
+        <div>
+          <div className="font-satoshireguler text-gray-600 mb-4">
+            Choose Size
+          </div>
+          <div className="flex space-x-4">
+            {sizes.map((size, index) => {
+              return (
+                <Button
+                  key={index}
+                  text={size}
+                  className="py-3 px-6 bg-[#f0f0f0] text-gray-500 w-fit text-nowrap hover:bg-black hover:text-white large:px-4 small:py-2 small:px-3 small:text-sm "
+                />
+              );
+            })}
+          </div>
+        </div>
+        <hr className="mt-8" />
+        <div className="flex mt-8 ">
+          <div className="flex py-4 w-44 bg-[#F0F0F0] items-center justify-around rounded-full">
+            <LuPlus
+              onClick={() => {
+                setCount((prev) => ++prev);
+              }}
+              className="size-6 small:size-4"
+            />
+            <span>{count}</span>
+            <LuMinus
+              onClick={() => {
+                setCount((prev) => (prev > 1 ? --prev : 1));
+              }}
+              className="size-6 small:size-4"
+            />
+          </div>
+          <Button
+            text="Add to Cart"
+            className="w-full ml-5 bg-black text-white small:text-sm"
+          ></Button>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import ProductItems from "../../components/Productitem/Productitem";
+import { ProductItems } from "../../components/Productitem/ProductItems";
 import ProductSkeleton from "../../components/loader/ProductSkeleton";
 import { Product, useFetchData } from "../../helper/useFectchApi";
 import Button from "../../components/button";

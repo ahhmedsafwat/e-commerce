@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ProductItems from "../../components/Productitem/Productitem";
+import { ProductItems } from "../../components/Productitem/ProductItems";
 import Button from "../../components/button";
 import ProductSkeleton from "../../components/loader/ProductSkeleton";
 import { Product, useFetchData } from "../../helper/useFectchApi";

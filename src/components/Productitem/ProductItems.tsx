@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
-import { Product } from "../../helper/useFectchApi";
 import Rating from "../utilities/Rating";
-export interface ProductItemsProps {
-  products: Product[] | undefined;
-}
-const ProductItems = (props: ProductItemsProps) => {
+import { ProductItemsProps } from "./Productitem";
+
+export const ProductItems = (props: ProductItemsProps) => {
   return props.products?.map((product) => (
     <div
       key={product.id}
@@ -41,5 +39,3 @@ const ProductItems = (props: ProductItemsProps) => {
     </div>
   ));
 };
-
-export default ProductItems;
