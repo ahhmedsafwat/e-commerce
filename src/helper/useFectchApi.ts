@@ -20,13 +20,14 @@ export interface Comment {
   };
 }
 
-const useFetchData = <T>(url: string, queryKey: string) => {
+const useFetchData = <T>(url: string, queryKey: string ,page?: number) => {
   const {
     isPending,
     error,
     data: fakeData,
+    
   } = useQuery<T>({
-    queryKey: [queryKey],
+    queryKey: [queryKey, page],
 
     queryFn: async () => {
       const response = await axios({

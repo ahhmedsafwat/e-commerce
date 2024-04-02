@@ -2,7 +2,7 @@ import { useState } from "react";
 import { LuChevronRight, LuCheck  } from "react-icons/lu";
 
 const Colors = ()=> {
-    const [click, setClick] = useState(false)
+    const [clickcolor, setClick] = useState(false)
     const [selectedDiv, setSelectedDiv] = useState<number | null>(null);
 
     const handleIcon = (index: number) => {
@@ -10,7 +10,7 @@ const Colors = ()=> {
     };
 
     const handleClick = ()=>{
-        setClick(!click)
+        setClick(!clickcolor)
     }
     return(
         <>
@@ -19,10 +19,10 @@ const Colors = ()=> {
                 <LuChevronRight className="crusor-pointer"/>
             </div>
             {
-                click && 
+                clickcolor && 
                 <div className="flex">
                 <div className={`bg-red-600 Colors Colors`} onClick={() => handleIcon(0)}>
-                    {selectedDiv === 0 && <LuCheck className="text-primary"/>}
+                    {selectedDiv === 0 ? <LuCheck className="text-primary"/> : ""}
                 </div>
                 <div className={`bg-yellow-400 Colors`} onClick={() => handleIcon(1)}>
                     {selectedDiv === 1 && <LuCheck className="text-primary"/>}

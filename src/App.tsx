@@ -8,7 +8,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Categories from "./pages/Category/Categories";
 import ProductDetails from "./pages/Productdetails/ProductDetails";
 const App = () => {
-  const client = new QueryClient();
+  const client = new QueryClient({
+    defaultOptions:{
+      queries:{
+        refetchOnWindowFocus:false
+      }
+    }
+  });
   return (
     <QueryClientProvider client={client}>
       <div className="App ">

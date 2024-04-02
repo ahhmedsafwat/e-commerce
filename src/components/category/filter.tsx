@@ -4,7 +4,7 @@ import FilterItems from "./filterItems";
 const Filter = ()=>{
     return(
         <>
-        <div className="border rounded-lg min-w-[240px]">
+        <div className="border rounded-lg p-5 min-w-[240px] ">
             <div className="flex justify-between mb-4">
                 <h3 className="font-satoshiBold text-lg">Filter</h3>
                 <LuListFilter className="cursor-pointer" size={25}/>
@@ -15,6 +15,8 @@ const Filter = ()=>{
             <FilterItems />
             
         </div>
+        
+        </>
         
         </>
     )

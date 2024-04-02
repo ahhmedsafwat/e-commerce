@@ -1,13 +1,16 @@
 import { LuStar, LuStarHalf } from "react-icons/lu";
-import { ProductItemsProps } from "../../components/Productitem/Productitem";
+import { Pageing } from "./CategoryPages";
+import { Link } from "react-router-dom";
 
-const CategoriesProduct = (props:ProductItemsProps)=>{
 
-    return props.products?.map((product)=> (
+const CategoriesProduct = (props:Pageing)=>{
+
+    return props.data?.map((product)=> (
+        <div className="grid small:place-items-end">
         <div key={product.id} 
-        className="py-5 px-4 small:px-3  border rounded-lg m-4 w-72 xLarge:w-64 large:w-80 h-[420px] xLarge:h-96 small:h-full"
+        className="py-5 px-4 small:px-3 border rounded-lg m-4 w-64 xLarge:w-64 large:w-56 h-[420px] xLarge:h-96  "
         >
-
+            <Link to={product.title}>
             <div className=" relative flex items-center justify-center mb-6  h-64 xLarge:h-56">
                 {/* <div className="bg-slate-600 min-h-40 min-w-40 absolute"></div> */}
                 <img
@@ -39,10 +42,12 @@ const CategoriesProduct = (props:ProductItemsProps)=>{
                 <div className="line-through text-gray-400">${product.amount}</div>
                 ) }
                 {product.amount != 0 && (
-            <div className="text-xs text-[#FF3333] bg-[#ff33331a] px-4 py-[6px] rounded-full">
+            <div className="text-xs text-[#FF3333] bg-[#ff33331a] px-2 py-[6px] rounded-full">
               -{((product.amount / product.price) * 100).toFixed()}%
             </div>
         )}
+        </div>
+        </Link>
         </div>
         </div>
     ))

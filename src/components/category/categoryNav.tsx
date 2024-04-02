@@ -34,7 +34,7 @@ const CategoryNav = ()=>{
             <LuListFilter size={25}/>
             </div>
         <div 
-        className={items ? `fixed z-50 bg-gray-600 top-0 left-0 w-full small:left-0 px-4 rounded-lg p-5` : "hidden"}>
+        className={items ? `fixed z-50 bg-gray-600 top-0 left-0 w-full small:left-0 px-4 rounded-lg p-5 small:bottom-0 small:top-24` : "hidden"}>
             {items &&
                     <>
                         <div className="Filter-item text-lg font-satoshiBold">
