@@ -1,0 +1,9 @@
+.Filter-item{
+    @apply flex items-center justify-between my-5 cursor-pointer;
+}
+.Colors{
+    @apply rounded-xl p-[5px] min-w-[26px] mr-1 cursor-pointer h-6;
+}
+.Size{
+    @apply bg-whitedark mr-5 p-2 rounded-xl my-1;
+}
