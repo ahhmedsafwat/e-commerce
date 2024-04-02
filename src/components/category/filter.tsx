@@ -15,9 +15,6 @@ const Filter = ()=>{
             <FilterItems />
             
         </div>
-        
-        </>
-        
         </>
     )
 }
