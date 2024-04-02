@@ -11,7 +11,7 @@ const Footer = () => {
         <Links></Links>
         <FooterItems></FooterItems>
       </div>
-        {/* <Cta /> */}
+      {/* <Cta /> */}
       <hr className="border-2 mb-7 mt-7" />
       <CopyRights />
     </footer>
