@@ -8,7 +8,7 @@ const Categories = ()=>{
 
         return(
             <>
-            
+            <div>dsdd dfsdfsdsdsfd</div>
                 <div className="grid grid-cols-4 medium:grid-cols-1 small:px-0 gap-[1%] mt-14 mb-32 px-24 xlarge:px-20 large:pl-10 medium:px-8">
                 <CategoryNav />
                 <div className="medium:hidden "><Filter/></div>

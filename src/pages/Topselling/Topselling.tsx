@@ -1,8 +1,8 @@
-import { ProductItems } from "../../components/Productitem/ProductItems";
 import ProductSkeleton from "../../components/loader/ProductSkeleton";
 import { Product, useFetchData } from "../../helper/useFectchApi";
-import Button from "../../components/button";
+import Button from "../../components/utilities/button";
 import { Link } from "react-router-dom";
+import ProductItem from "../../components/Productitem/ProductItems";
 const Topselling = () => {
   const { fakeData, isPending, error } = useFetchData<Product[]>(
     `http://localhost:8000/products?_start=5&_end=9`,
@@ -24,8 +24,8 @@ const Topselling = () => {
         </div>
       )}
       {fakeData && (
-        <div className="grid grid-cols-4 large:grid-cols-2 gap-[1%] small:flex mt-14 mb-8 overflow-hidden place-items-center ">
-          <ProductItems products={fakeData} />
+        <div className="grid grid-cols-4 large:grid-cols-2 gap-[1%] small:flex mt-14 mb-8 overflow-hidden place-items-center">
+          <ProductItem products={fakeData} />
         </div>
       )}
       <Link to={"Categories"} className="w-fit block mx-auto">

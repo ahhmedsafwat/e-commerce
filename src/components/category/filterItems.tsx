@@ -36,7 +36,7 @@ const FilterItems = ()=>{
             <Size/>
 
             <DressStyle/>
-
+            
             <button className="bg-black text-primary w-full p-2 rounded-2xl"> Apply Filter </button></>
     )
 }

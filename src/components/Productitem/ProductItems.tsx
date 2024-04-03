@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
+import { Product } from "../../helper/useFectchApi";
 import Rating from "../utilities/Rating";
-import { ProductItemsProps } from "./Productitem";
-
-export const ProductItems = (props: ProductItemsProps) => {
+interface ProductItemsProps {
+  products: Product[] | undefined;
+  className?: string;
+}
+const ProductItem = (props: ProductItemsProps) => {
   return props.products?.map((product) => (
     <div
       key={product.id}
-      className="py-5 px-4 small:px-3 border rounded-lg m-4 w-72 xLarge:w-64 large:w-80 h-[420px] xLarge:h-96 small:w-64"
+      className={`${props.className} py-5 px-4 small:px-3 border rounded-lg m-4 w-72 xLarge:w-64 large:w-80 h-[420px] xLarge:h-96 small:w-64`}
     >
       <Link to={`products/${product.id}/${product.title}`}>
         <div className=" flex items-center justify-center mb-6 h-64 xLarge:h-56">
@@ -39,3 +42,5 @@ export const ProductItems = (props: ProductItemsProps) => {
     </div>
   ));
 };
+
+export default ProductItem;

@@ -25,7 +25,7 @@ const Colors = ()=> {
                     {selectedDiv === 0 ? <LuCheck className="text-primary"/> : ""}
                 </div>
                 <div className={`bg-yellow-400 Colors`} onClick={() => handleIcon(1)}>
-                    {selectedDiv === 1 && <LuCheck className="text-primary"/>}
+                {selectedDiv === 1 ? <LuCheck className="text-primary"/> : ""}
                 </div>
                 <div className={`bg-green-700 Colors`} onClick={() => handleIcon(2)}>
                     {selectedDiv === 2 && <LuCheck className="text-primary"/>}
