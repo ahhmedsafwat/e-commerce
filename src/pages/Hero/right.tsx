@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../../components/button";
+import Button from "../../components/utilities/button";
 import Statistics from "./statistics";
 const Right = () => {
   return (

@@ -7,7 +7,7 @@ const ProductDetails = () => {
   const { id } = useParams();
   const { fakeData: product } = useFetchData<Product>(
     `http://localhost:8000/products/${id}`,
-    "product"
+    "Details"
   );
 
   return (

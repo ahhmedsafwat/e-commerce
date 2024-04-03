@@ -1,7 +1,7 @@
 import { Product } from "../../helper/useFectchApi";
 import "./productdetailsitem.css";
 import Rating from "../utilities/Rating";
-import Button from "../button";
+import Button from "../utilities/button";
 import ProductDetailsImg from "./ProductDetailsimg";
 import { useState } from "react";
 import { LuPlus, LuMinus } from "react-icons/lu";
@@ -9,6 +9,11 @@ interface Productitem {
   product: Product;
 }
 const ProductDetailsItem = (Props: Productitem) => {
+  const [selectedDiv, setSelectedDiv] = useState<number | null>(0);
+
+  const handleIcon = (index: number) => {
+    setSelectedDiv(index === selectedDiv ? null : index);
+  };
   const sizes = ["Small", "Medium", "Large", "X-Large"];
   const [count, setCount] = useState(1);
   return (
@@ -56,7 +61,10 @@ const ProductDetailsItem = (Props: Productitem) => {
                 <Button
                   key={index}
                   text={size}
-                  className="py-3 px-6 bg-[#f0f0f0] text-gray-500 w-fit text-nowrap hover:bg-black hover:text-white large:px-4 small:py-2 small:px-3 small:text-sm "
+                  className={`py-3 px-6 bg-[#f0f0f0] text-gray-500 w-fit text-nowrap hover:bg-black hover:text-white large:px-4 small:py-2 small:px-3 small:text-sm ${
+                    selectedDiv === index && "bg-secondory text-primary"
+                  }`}
+                  onclick={() => handleIcon(index)}
                 />
               );
             })}
@@ -81,7 +89,7 @@ const ProductDetailsItem = (Props: Productitem) => {
           </div>
           <Button
             text="Add to Cart"
-            className="w-full ml-5 bg-black text-white small:text-sm"
+            className="w-full ml-5 bg-black text-white small:text-sm hover:bg-white hover:text-black"
           ></Button>
         </div>
       </div>

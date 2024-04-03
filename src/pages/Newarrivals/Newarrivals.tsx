@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { ProductItems } from "../../components/Productitem/ProductItems";
-import Button from "../../components/button";
+import ProductItem from "../../components/Productitem/ProductItems";
+import Button from "../../components/utilities/button";
 import ProductSkeleton from "../../components/loader/ProductSkeleton";
 import { Product, useFetchData } from "../../helper/useFectchApi";
 const NewArrivals = () => {
@@ -25,7 +25,7 @@ const NewArrivals = () => {
       )}
       {fakeData && (
         <div className="grid grid-cols-4 large:grid-cols-2 gap-[1%] small:flex mt-14 mb-8 overflow-hidden place-items-center ">
-          <ProductItems products={fakeData} />
+          <ProductItem products={fakeData} />
         </div>
       )}
       <Link to={"Categories"} className="w-fit block mx-auto">
