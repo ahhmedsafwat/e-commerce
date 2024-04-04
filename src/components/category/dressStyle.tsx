@@ -27,16 +27,16 @@ const DressStyle = () => {
           </div>
           <div className="Filter-item">
             <h3 className="font-satoshi500">
-              <Link to="/Categories/formal">Forml</Link>
+              <Link to="/Categories/jeans">Jeans</Link>
             </h3>
             <LuChevronRight />
           </div>
           <div className="Filter-item">
-            <h3 className="font-satoshi500">Party</h3>
+          <Link to="/Categories/shoes">Shoes</Link>
             <LuChevronRight />
           </div>
           <div className="Filter-item">
-            <h3 className="font-satoshi500">Gym</h3>
+          <Link to="/Categories/gym">GYM</Link>
             <LuChevronRight />
           </div>
         </>

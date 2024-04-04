@@ -1,6 +1,7 @@
 import { LuAlignJustify, LuChevronLeft, LuChevronRight } from "react-icons/lu";
 import { useRef, useState, useEffect } from "react";
 import Navitems from "./NvaItems";
+import { Link } from "react-router-dom";
 
 export const HamMenu = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -56,10 +57,10 @@ export const HamMenu = () => {
         }
       >
         <ul className={`p-2 ${shopClick ? "block w-[95%]" : "hidden"}`}>
-          <li className="shop-item">Casual</li>
-          <li className="shop-item">Hoodie</li>
-          <li className="shop-item">Jeans</li>
-          <li className="shop-item">Shoes</li>
+        <Link to="/Categories/casual"><li className="shop-item">Casual</li></Link>
+          <Link to="/Categories/jeans"><li className="shop-item">Jeans</li></Link>
+          <Link to="/Categories/shoes"><li className="shop-item">Shoes</li></Link>
+          <Link to="/Categories/gym"><li className="shop-item">Gym</li></Link>
         </ul>
       </Navitems>
       <Navitems className="hamburger-item" link="On Sale" />

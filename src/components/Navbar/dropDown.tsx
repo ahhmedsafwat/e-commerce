@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { LuChevronUp} from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 const DropValue = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -36,14 +37,14 @@ const DropValue = () => {
       </div>
 
       <ul
-        className={`mt-2 border border-gray-300 overflow-hidden rounded-md shadow-md bg-white absolute w-40 left-[-10px] ${
+        className={`mt-2 border border-gray-300 overflow-hidden rounded-md shadow-md bg-white absolute w-40 left-[-10px] z-20 ${
           open ? "h-auto translate-y-2" : " invisible opacity-0"
         } transition duration-300`}
       >
-        <li className="dropdown-item ">Casual</li>
-        <li className="dropdown-item">Hoodie</li>
-        <li className="dropdown-item">Jeans</li>
-        <li className="dropdown-item">Shoes</li>
+        <Link to={"/Categories/casual"}><li className="dropdown-item">Casual</li></Link>
+        <Link to={"/Categories/jeans"}><li className="dropdown-item">Jeans</li></Link>
+        <Link to={"/Categories/shoes"}><li className="dropdown-item">Shoes</li></Link>
+        <Link to={"/Categories/gym"}><li className="dropdown-item">Gym</li></Link>
       </ul>
     </div>
   );

@@ -37,7 +37,7 @@ const FilterItems = ()=>{
 
             <DressStyle/>
             
-            <button className="bg-black text-primary w-full p-2 rounded-2xl"> Apply Filter </button></>
+            <button className="bg-black text-primary w-full p-2 rounded-2xl hover:bg-gray-600 hover:text-secondory"> Apply Filter </button></>
     )
 }
 

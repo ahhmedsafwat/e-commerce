@@ -29,7 +29,7 @@
       "categories": {
         "gender": "men",
         "type": "jeans",
-        "fashion": "casual"
+        "fashion": "jeans"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61wAYYRiDmL._AC_SY606_.jpg",
@@ -50,7 +50,7 @@
       "categories": {
         "gender": "men",
         "type": "sneaker",
-        "fashion": "formal"
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71BKudGlMCL._AC_SY625_.jpg",
@@ -155,7 +155,7 @@
       "categories": {
         "gender": "men",
         "type": "clothes",
-        "fashion": "casual"
+        "fashion": "gym"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/619tEAGyDJL._AC_SX569_.jpg",
@@ -176,7 +176,7 @@
       "categories": {
         "gender": "men",
         "type": "trainer",
-        "fashion": "shoes"
+        "fashion": "gym"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61gAg7kNlXL._AC_SX575_.jpg",
@@ -218,7 +218,7 @@
       "categories": {
         "gender": "men",
         "type": "jeans",
-        "fashion": "casual"
+        "fashion": "jeans"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/71gRW5JhqcL._AC_SY550_.jpg",
@@ -281,7 +281,7 @@
       "categories": {
         "gender": "men",
         "type": "clothes",
-        "fashion": "casual"
+        "fashion": "gym"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61QdaioQnKS._AC_SY741_.jpg",
@@ -343,8 +343,8 @@
       "description": "Casual lace-up sneakers from Cole Haan, featuring a stylish design and cushioned footbed. Great for everyday wear.",
       "categories": {
         "gender": "men",
-        "type": "shoes",
-        "fashion": "sneaker"
+        "type": "sneaker",
+        "fashion": "shoes"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/613Anbu-hsL._AC_SY625_.jpg",
@@ -365,7 +365,7 @@
       "categories": {
         "gender": "men",
         "type": "jeans",
-        "fashion": "casual"
+        "fashion": "jeans"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/81YSzSA2KAL._AC_SY550_.jpg",
@@ -470,7 +470,7 @@
       "categories": {
         "gender": "men",
         "type": "jeans",
-        "fashion": "casual"
+        "fashion": "jeans"
       },
       "image": {
         "front": "https://m.media-amazon.com/images/I/61pSZEnJFEL._AC_SY741_.jpg",
