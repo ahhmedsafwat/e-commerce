@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useFetchData, Product } from "../../helper/useFectchApi";
 import { LuChevronRight } from "react-icons/lu";
 import ProductDetailsItem from "../../components/Productdetailsitem/Productdetailsitem";
+import { useEffect } from "react";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -9,7 +10,9 @@ const ProductDetails = () => {
     `http://localhost:8000/products/${id}`,
     "Details"
   );
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="px-20 xLarge:px-5 medium:px-8 relative">
       <hr className=" mb-6" />

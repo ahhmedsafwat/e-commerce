@@ -8,6 +8,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Categories from "./pages/Category/Categories";
 import ProductDetails from "./pages/Productdetails/ProductDetails";
 import FilterdProductItem from "./components/Filterdproductitem/Filterdproductitem";
+
 const App = () => {
   const client = new QueryClient({
     defaultOptions: {

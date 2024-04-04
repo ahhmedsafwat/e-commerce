@@ -3,11 +3,15 @@ import { Product, useFetchData } from "../../helper/useFectchApi";
 import Button from "../../components/utilities/button";
 import { Link } from "react-router-dom";
 import ProductItem from "../../components/Productitem/ProductItems";
+import { useDragScroll } from "../../components/utilities/useDragProducts";
 const Topselling = () => {
   const { fakeData, isPending, error } = useFetchData<Product[]>(
     `http://localhost:8000/products?_start=5&_end=9`,
     "topseller"
   );
+
+  const [ref] = useDragScroll();
+
   if (error) return `There was an error : ${error.message}`;
 
   return (
@@ -24,7 +28,10 @@ const Topselling = () => {
         </div>
       )}
       {fakeData && (
-        <div className="grid grid-cols-4 large:grid-cols-2 gap-[1%] small:flex mt-14 mb-8 overflow-hidden place-items-center">
+        <div
+          className="grid grid-cols-4 large:grid-cols-2 gap-[1%] small:flex mt-14 mb-8 overflow-hidden place-items-center"
+          ref={ref}
+        >
           <ProductItem products={fakeData} />
         </div>
       )}
