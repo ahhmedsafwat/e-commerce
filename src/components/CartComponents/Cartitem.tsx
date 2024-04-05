@@ -7,8 +7,8 @@ const CartItem = () => {
   //   const sizes = ["small", "small", "large", "xlarge"];
   const [count, setCount] = useState(1);
   return (
-    <div className="flex py-6 small:py-3 mx-6 small:mx-3 border-b justify-between relative">
-      <div className="flex ">
+    <div className="flex py-6 small:py-3 mx-6 small:mx-3 border-b last:border-none justify-between relative ">
+      <div className="flex">
         <div className="size-40 small:size-24 border rounded-md flex items-center justify-center p-3 small:p-1">
           <img
             className="object-contain"
@@ -17,8 +17,8 @@ const CartItem = () => {
           />
         </div>
         <div className="ml-4 flex flex-col justify-between ">
-          <div className="">
-            <h1 className="text-xl small:text-base font-satoshiBold text-nowrap overflow-hidden text-ellipsis small:w-36 ">
+          <div>
+            <h1 className="text-xl large:text-lg small:text-base font-satoshiBold  small:text-nowrap overflow-hidden text-ellipsis small:w-36 ">
               Adidas Originals Men's Superstar Sneaker
             </h1>
             <div className="font-satoshireguler small:text-xs">
@@ -49,7 +49,7 @@ const CartItem = () => {
           />
         </svg>
 
-        <div className="flex py-3 small:py-1 w-32 small:w-24 bg-[#F0F0F0] items-center justify-around rounded-full small:absolute small:bottom-4">
+        <div className="flex py-3 small:py-1 w-32 small:w-24 bg-[#F0F0F0] items-center justify-around rounded-full large:absolute large:bottom-4">
           <LuPlus
             onClick={() => {
               setCount((prev) => ++prev);

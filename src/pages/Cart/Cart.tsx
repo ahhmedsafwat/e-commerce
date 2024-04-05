@@ -1,6 +1,7 @@
 import { LuChevronRight } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import CartItem from "../../components/CartComponents/Cartitem";
+import OrderSummary from "../../components/CartComponents/Cartorder";
 
 const Cart = () => {
   return (
@@ -17,11 +18,16 @@ const Cart = () => {
         <h1 className="text-5xl small:text-3xl font-secondary my-6 ">
           Your Cart
         </h1>
-        <div className="border rounded-3xl">
-          <CartItem />
-          <CartItem />
-          <CartItem />
-          <CartItem />
+        <div className="flex gap-4 medium:flex-col items-start">
+          <div className="border rounded-3xl w-full ">
+            <CartItem />
+            <CartItem />
+            <CartItem />
+            <CartItem />
+            <CartItem />
+            <CartItem />
+          </div>
+          <OrderSummary />
         </div>
       </div>
     </section>
