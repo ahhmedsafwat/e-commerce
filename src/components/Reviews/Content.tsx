@@ -2,16 +2,17 @@
 import { Comment } from "../../helper/useFectchApi";
 import { LuStar } from "react-icons/lu";
 
-interface CommentsProp {
+export interface CommentsProp {
   comments: Comment[] | undefined;
+  className?: string
 }
 
 const Content = (props: CommentsProp) => {
   return props.comments?.map((comment) => (
-
+    
         <div
           key={comment.id}
-          className="border-solid border rounded-xl p-4 z-20 min-w-[400px] small:min-w-[280px]"
+          className={`border-solid border rounded-xl p-4 z-20 min-w-[400px] small:min-w-[280px] ${props.className}` }
         >
           <div className="inline-flex mr-3">
             <LuStar className="fill-[#FFC633] stroke-none " size={25}></LuStar>

@@ -5,6 +5,7 @@ import Button from "../utilities/button";
 import ProductDetailsImg from "./ProductDetailsimg";
 import { useState } from "react";
 import { LuPlus, LuMinus } from "react-icons/lu";
+import ProductComment from "./ProductComments";
 interface Productitem {
   product: Product;
 }
@@ -17,6 +18,7 @@ const ProductDetailsItem = (Props: Productitem) => {
   const sizes = ["Small", "Medium", "Large", "X-Large"];
   const [count, setCount] = useState(1);
   return (
+    <>
     <div className="flex gap-8 items-center large:items-start medium:flex-col medium:items-center">
       <ProductDetailsImg
         front={Props.product?.image.front}
@@ -94,6 +96,8 @@ const ProductDetailsItem = (Props: Productitem) => {
         </div>
       </div>
     </div>
+    <ProductComment/>
+        </>
   );
 };
 

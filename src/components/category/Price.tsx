@@ -49,6 +49,7 @@ const Price: React.FC<PriceProps> = ({ min, max }) => {
                 }
                 .input-range .input-range__track--active {
                     background-color: black;
+                    transition: background-color 0.1s ease;
             `}
           </style>
           <InputRange

@@ -12,8 +12,6 @@ const Reviews = () => {
     `http://localhost:8000/comments`,
     "review"
   );
-  if (error) return `There was an error : ${error.message}`;
-  if (isPending) return `Loading...`;
 
   const handleScrollLeft = () => {
     if (scrollableContentRef.current) {
@@ -32,6 +30,9 @@ const Reviews = () => {
       });
     }
   };
+  
+  if (error) return `There was an error : ${error.message}`;
+  if (isPending) return `Loading...`;
 
   return (
     <div className="  py-6 small:px-4 large:px-20 relative mb-40 ">

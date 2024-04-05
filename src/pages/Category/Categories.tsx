@@ -4,13 +4,14 @@ import Pages from "../../components/category/CategoryPages";
 import CategoryNav from "../../components/category/categoryNav";
 // import CategoriesProduct from "../../components/category/categorProduct";
 import Filter from "../../components/category/filter";
+import { Link } from "react-router-dom";
 
 const Categories = ()=>{
 
         return(
             <>
             <div className="text-gray-500 font-satoshireguler flex items-center capitalize gap-1 px-24 large:px-10 medium:px-8">
-                <span className="cursor-pointer">Home</span>
+                <Link to={"/"}><span className="cursor-pointer">Home</span></Link>
                 <LuChevronRight />
                 <span className="cursor-pointer">Category</span>
                 <LuChevronRight />
