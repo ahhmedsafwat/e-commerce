@@ -9,7 +9,7 @@ const FilterdProductItem = () => {
     "FilterdProduct"
   );
   return (
-    <div className="grid grid-cols-4 large:grid-cols-3 medium:grid-cols-2 small:grid-cols-1 place-items-center">
+    <div className="grid grid-cols-4 large:grid-cols-3 medium:grid-cols-2 small:grid-cols-1 place-items-center pb-40">
       {fakeData?.map((product) => {
         return product.categories.fashion === id
           ?<div>

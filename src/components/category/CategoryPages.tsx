@@ -56,7 +56,7 @@ const Pages = () => {
             <div className="grid xLarge:pl-[10px]">
                 <ProductItems products={fakeData?.data} className="w-64 xLarge:w-64 large:w-56"/>
 
-                <div className="col-span-3 xLarge:col-span-2 small:col-span-1 flex justify-around small:justify-end">
+                <div className="col-span-3 xLarge:col-span-2 small:col-span-1 flex justify-around small:justify-end small:pr-8">
                     <button onClick={previusPage} className="border p-1 rounded-lg hover:bg-secondory hover:text-primary transition-all"> <LuArrowLeft className="inline-block" size={24} />PREVIOUS</button>
                     <div className="mx-4">
                         {screenWidth > 650 &&
