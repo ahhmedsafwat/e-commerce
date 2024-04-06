@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Provider } from "react-redux";
 import Home from "./pages/Home/Home";
 import Cart from "./pages/Cart/Cart";
 import Navbar from "./components/Navbar/Navbar";
@@ -8,6 +9,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Categories from "./pages/Category/Categories";
 import ProductDetails from "./pages/Productdetails/ProductDetails";
 import FilterdProductItem from "./components/Filterdproductitem/Filterdproductitem";
+import store from "./store/store";
 
 const App = () => {
   const client = new QueryClient({
@@ -18,23 +20,25 @@ const App = () => {
     },
   });
   return (
-    <QueryClientProvider client={client}>
-      <div className="App ">
-        <Router>
-          <Offer />
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Cart />} />
-            {/* <Route path="/signup"  element={}> */}
-            <Route path={`/products/:id/*`} element={<ProductDetails />} />
-            <Route path="/Categories/" element={<Categories />} />
-            <Route path="/Categories/:id" element={<FilterdProductItem />} />
-          </Routes>
-          <Footer />
-        </Router>
-      </div>
-    </QueryClientProvider>
+    <Provider store={store}>
+      <QueryClientProvider client={client}>
+        <div className="App ">
+          <Router>
+            <Offer />
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/cart" element={<Cart />} />
+              {/* <Route path="/signup"  element={}> */}
+              <Route path={`/products/:id/*`} element={<ProductDetails />} />
+              <Route path="/Categories/" element={<Categories />} />
+              <Route path="/Categories/:id" element={<FilterdProductItem />} />
+            </Routes>
+            <Footer />
+          </Router>
+        </div>
+      </QueryClientProvider>
+    </Provider>
   );
 };
 

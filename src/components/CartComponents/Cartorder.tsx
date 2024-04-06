@@ -1,19 +1,41 @@
 import { LuTag, LuArrowRight } from "react-icons/lu";
 import Button from "../utilities/button";
+import { useSelector } from "react-redux";
+import { RootState } from "../../store/store";
+
 const OrderSummary = () => {
+  const state = useSelector((state: RootState) => state.cart.cartItems);
+  const totalAmout = state.reduce(
+    (acc, item) => acc + item.prodcut.price * item.ammount,
+    0
+  );
+  const totalDiscount = state.reduce(
+    (acc, item) => acc + item.prodcut.amount * item.ammount,
+    0
+  );
   return (
     <div className="border p-5 rounded-3xl flex flex-col  w-fit medium:w-full">
       <h1 className="font-satoshiBold text-xl mb-4">order Summary</h1>
       <div className="space-y-5">
         <div className="flex justify-between">
           <span className="text-gray-500 font-satoshireguler">Subtotal</span>
-          <span className="font-satoshiBold">$334</span>
+          <span className="font-satoshiBold">${totalAmout.toFixed(2)}</span>
         </div>
         <div className="flex justify-between">
           <span className="text-gray-500 font-satoshireguler">
-            Discount (-20%)
+            Discount (%
+            {state
+              .reduce(
+                (acc, item) =>
+                  acc + (item.prodcut.amount / totalAmout) * item.ammount * 100,
+                0
+              )
+              .toFixed(2)}
+            )
           </span>
-          <span className="font-satoshiBold text-red-600">-$113</span>
+          <span className="font-satoshiBold text-red-600">
+            -${totalDiscount.toFixed(2)}
+          </span>
         </div>
         <div className="flex justify-between">
           <span className="text-gray-500 font-satoshireguler">
@@ -26,7 +48,9 @@ const OrderSummary = () => {
       <div>
         <div className="flex justify-between">
           <span className=" font-satoshireguler">Total</span>
-          <span className="font-satoshiBold text-xl">$343</span>
+          <span className="font-satoshiBold text-xl">
+            ${(totalAmout - totalDiscount + 15).toFixed(2)}
+          </span>
         </div>
         <div className="flex my-6">
           <label className="relative w-full">

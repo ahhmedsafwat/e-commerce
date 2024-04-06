@@ -12,22 +12,22 @@ const BrowesStyle = () => {
       </h1>
       <div className="grid grid-cols-3 medium:grid-cols-1 place-items-center mt-16 gap-5  ">
         <BrowesStyleItem
-          title="Casual"
+          title="casual"
           img={casual}
           className="col-span-1 medium:col-span-full"
         />
         <BrowesStyleItem
-          title="Fromal"
+          title="fromal"
           img={formal}
           className="col-span-2 medium:col-span-full "
         />
         <BrowesStyleItem
-          title="Party"
+          title="party"
           img={party}
           className="col-span-2 medium:col-span-full"
         />
         <BrowesStyleItem
-          title="Gym"
+          title="gym"
           img={gym}
           className="col-span-1 medium:col-span-full"
         />

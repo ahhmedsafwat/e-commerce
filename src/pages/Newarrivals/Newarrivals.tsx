@@ -15,7 +15,7 @@ const NewArrivals = () => {
 
   return (
     <div className="py-16 px-20 xLarge:px-5 medium:px-8 small:px-4">
-      <h1 className="text-center text-5xl medium:text-4xl small:text-3xl font-secondary bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-cyan-500">
+      <h1 className="text-center text-5xl medium:text-4xl small:text-3xl font-secondary">
         New Arrivals
       </h1>
       {isPending && (

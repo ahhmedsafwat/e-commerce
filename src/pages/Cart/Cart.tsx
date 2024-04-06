@@ -21,11 +21,6 @@ const Cart = () => {
         <div className="flex gap-4 medium:flex-col items-start">
           <div className="border rounded-3xl w-full ">
             <CartItem />
-            <CartItem />
-            <CartItem />
-            <CartItem />
-            <CartItem />
-            <CartItem />
           </div>
           <OrderSummary />
         </div>
