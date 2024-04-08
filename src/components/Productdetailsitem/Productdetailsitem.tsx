@@ -7,7 +7,7 @@ import { useState } from "react";
 import { LuPlus, LuMinus } from "react-icons/lu";
 import ProductComment from "./ProductComments";
 import { useDispatch } from "react-redux";
-import { cartProdcut } from "../../store/store";
+import { cartProduct } from "../../store/store";
 import { addToCart } from "../../store/cartSlice";
 interface Productitem {
   product: Product;
@@ -21,7 +21,7 @@ const ProductDetailsItem = (Props: Productitem) => {
   const dispatch = useDispatch();
   // const cartItem = useSelector((state: RootState) => state.cart.cartItems);
 
-  const handleAddCart = (item: cartProdcut) => {
+  const handleAddCart = (item: cartProduct) => {
     dispatch(addToCart(item));
   };
   const item = {

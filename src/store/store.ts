@@ -6,8 +6,8 @@ import cartReducer from "./cartSlice";
 import priceReducer from "./priceReducer";
 
 export interface cartProduct {
-  product: Product; // Corrected typo: 'product' instead of 'prodcut'
-  amount: number; // Corrected typo: 'amount' instead of 'ammount'
+  prodcut: Product; // Corrected typo: 'product' instead of 'prodcut'
+  ammount: number; // Corrected typo: 'amount' instead of 'ammount'
   size: string;
 }
 

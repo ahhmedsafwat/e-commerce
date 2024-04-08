@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { RootState, cartProdcut } from "../../store/store";
+import { RootState, cartProduct } from "../../store/store";
 import { Link } from "react-router-dom";
 import { removeFromCart } from "../../store/cartSlice";
 
@@ -7,7 +7,7 @@ const CartItem = () => {
   const state = useSelector((state: RootState) => state.cart.cartItems);
   const dispatch = useDispatch();
 
-  const handleRemoveFromCart = (product: cartProdcut) => {
+  const handleRemoveFromCart = (product: cartProduct) => {
     dispatch(removeFromCart(product));
   };
   return state.map((item) => (

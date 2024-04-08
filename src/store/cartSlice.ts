@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { cartProdcut } from "./store";
+import { cartProduct } from "./store";
 
-const loadCartFromStorage = (): cartProdcut[] | undefined => {
+const loadCartFromStorage = (): cartProduct[] | undefined => {
   try {
     const cartItems = localStorage.getItem("cartItems");
     return cartItems ? JSON.parse(localStorage.getItem("cartItems")!) : [];
@@ -10,7 +10,7 @@ const loadCartFromStorage = (): cartProdcut[] | undefined => {
   }
 };
 
-const saveCartItems = (cartItems: cartProdcut[]) => {
+const saveCartItems = (cartItems: cartProduct[]) => {
   try {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   } catch (error) {
