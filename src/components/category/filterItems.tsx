@@ -29,7 +29,7 @@ const FilterItems = ()=>{
             
             <hr/>
 
-            <Price max={60} min={0}/>
+            <Price />
 
             <Colors/>
 

@@ -5,7 +5,7 @@ import Logo from "../../assets/images/logo.svg";
 const Links = () => {
   return (
     <div className="medium:mb-4 small:col-span-full ">
-      <Link to={"/"} className="mb-10 block ">
+      <Link to={"/e-commerce"} className="mb-10 block ">
         <img src={Logo} alt="Logo"></img>
       </Link>
       <p className="w-60 text-sm text-gray-600 font-satoshireguler text-wrap ">
