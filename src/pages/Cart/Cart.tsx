@@ -9,7 +9,7 @@ const Cart = () => {
       <hr className=" mb-6" />
       <div className="text-gray-600 font-satoshireguler flex items-center capitalize gap-1">
         <span className="cursor-pointer">
-          <Link to={"/"}>Home</Link>
+          <Link to={"/e-commerce"}>Home</Link>
         </span>
         <LuChevronRight />
         <span className="cursor-pointer text-black">Cart</span>

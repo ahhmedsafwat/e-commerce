@@ -57,10 +57,18 @@ export const HamMenu = () => {
         }
       >
         <ul className={`p-2 ${shopClick ? "block w-[95%]" : "hidden"}`}>
-        <Link to="/Categories/casual"><li className="shop-item">Casual</li></Link>
-          <Link to="/Categories/jeans"><li className="shop-item">Jeans</li></Link>
-          <Link to="/Categories/shoes"><li className="shop-item">Shoes</li></Link>
-          <Link to="/Categories/gym"><li className="shop-item">Gym</li></Link>
+          <Link to="/e-commerce/Categories/casual">
+            <li className="shop-item">Casual</li>
+          </Link>
+          <Link to="/e-commerce/Categories/jeans">
+            <li className="shop-item">Jeans</li>
+          </Link>
+          <Link to="/e-commerce/Categories/shoes">
+            <li className="shop-item">Shoes</li>
+          </Link>
+          <Link to="/e-commerce/Categories/gym">
+            <li className="shop-item">Gym</li>
+          </Link>
         </ul>
       </Navitems>
       <Navitems className="hamburger-item" link="On Sale" />

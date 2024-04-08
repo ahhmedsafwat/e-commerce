@@ -15,10 +15,10 @@ const Links = () => {
           className="bg-whitedark w-full p-2 rounded-3xl pl-10 outline-none border-none large:hidden "
         />
       </div>
-      <Link to={"/Cart"} className="mr-4">
+      <Link to={"/e-commerce/Cart"} className="mr-4">
         <LuShoppingCart size={24} />
       </Link>
-      <Link to={"/signup"}>
+      <Link to={"/e-commerce/signup"}>
         <LuUserCircle2 size={24} />
       </Link>
     </div>

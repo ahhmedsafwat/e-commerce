@@ -17,12 +17,12 @@ const BrowesStyle = () => {
           className="col-span-1 medium:col-span-full"
         />
         <BrowesStyleItem
-          title="fromal"
+          title="jeans"
           img={formal}
           className="col-span-2 medium:col-span-full "
         />
         <BrowesStyleItem
-          title="party"
+          title="shoess"
           img={party}
           className="col-span-2 medium:col-span-full"
         />

@@ -4,7 +4,6 @@ import { cartProdcut } from "./store";
 const loadCartFromStorage = (): cartProdcut[] | undefined => {
   try {
     const cartItems = localStorage.getItem("cartItems");
-    console.log(cartItems);
     return cartItems ? JSON.parse(localStorage.getItem("cartItems")!) : [];
   } catch (error) {
     console.log(`Error loading cart items from storage : ${error}`);

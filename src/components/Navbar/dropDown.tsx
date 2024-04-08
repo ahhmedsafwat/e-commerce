@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { LuChevronUp} from "react-icons/lu";
+import { LuChevronUp } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
 const DropValue = () => {
@@ -31,8 +31,11 @@ const DropValue = () => {
     <div className="relative" ref={dropdownRef} onClick={handleOpen}>
       <div className="flex items-center cursor-pointer">
         Shop{" "}
-        <LuChevronUp size={24}
-          className={`${open ? "rotate-180" : "rotate-0"} transition ml-1 mt-0.5`}
+        <LuChevronUp
+          size={24}
+          className={`${
+            open ? "rotate-180" : "rotate-0"
+          } transition ml-1 mt-0.5`}
         />
       </div>
 
@@ -41,10 +44,18 @@ const DropValue = () => {
           open ? "h-auto translate-y-2" : " invisible opacity-0"
         } transition duration-300`}
       >
-        <Link to={"/Categories/casual"}><li className="dropdown-item">Casual</li></Link>
-        <Link to={"/Categories/jeans"}><li className="dropdown-item">Jeans</li></Link>
-        <Link to={"/Categories/shoes"}><li className="dropdown-item">Shoes</li></Link>
-        <Link to={"/Categories/gym"}><li className="dropdown-item">Gym</li></Link>
+        <Link to={"/e-commerce/Categories/casual"}>
+          <li className="dropdown-item">Casual</li>
+        </Link>
+        <Link to={"/e-commerce/Categories/jeans"}>
+          <li className="dropdown-item">Jeans</li>
+        </Link>
+        <Link to={"/e-commerce/Categories/shoes"}>
+          <li className="dropdown-item">Shoes</li>
+        </Link>
+        <Link to={"/e-commerce/Categories/gym"}>
+          <li className="dropdown-item">Gym</li>
+        </Link>
       </ul>
     </div>
   );

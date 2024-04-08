@@ -8,7 +8,7 @@ interface Props {
 const BrowesStyleItem = (props: Props) => {
   return (
     <Link
-      to={`/Categories/${props.title}`}
+      to={`/e-commerce/Categories/${props.title}`}
       className={`${props.className} capitalize cursor-pointer relative flex w-full min-h-72 bg-white rounded-3xl overflow-hidden p-8 xLarge:p-5`}
     >
       <h2 className="text-3xl z-[1] font-satoshiBold">{props.title}</h2>

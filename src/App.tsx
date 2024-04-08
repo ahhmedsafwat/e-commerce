@@ -22,17 +22,23 @@ const App = () => {
   return (
     <Provider store={store}>
       <QueryClientProvider client={client}>
-        <div className="App ">
+        <div className="App">
           <Router>
             <Offer />
             <Navbar />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/cart" element={<Cart />} />
+              <Route path="/e-commerce" element={<Home />} />
+              <Route path="/e-commerce/cart" element={<Cart />} />
               {/* <Route path="/signup"  element={}> */}
-              <Route path={`/products/:id/*`} element={<ProductDetails />} />
-              <Route path="/Categories/" element={<Categories />} />
-              <Route path="/Categories/:id" element={<FilterdProductItem />} />
+              <Route
+                path={`/e-commerce/products/:id/*`}
+                element={<ProductDetails />}
+              />
+              <Route path="/e-commerce/Categories/" element={<Categories />} />
+              <Route
+                path="/e-commerce/Categories/:id"
+                element={<FilterdProductItem />}
+              />
             </Routes>
             <Footer />
           </Router>

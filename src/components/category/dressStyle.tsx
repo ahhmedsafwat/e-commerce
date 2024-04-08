@@ -21,22 +21,22 @@ const DressStyle = () => {
         <>
           <div className="Filter-item">
             <h3 className="font-satoshi500">
-              <Link to={"/Categories/casual"}>Casual</Link>
+              <Link to={"/e-commerce/Categories/casual"}>Casual</Link>
             </h3>
             <LuChevronRight />
           </div>
           <div className="Filter-item">
             <h3 className="font-satoshi500">
-              <Link to="/Categories/jeans">Jeans</Link>
+              <Link to="/e-commerce/Categories/jeans">Jeans</Link>
             </h3>
             <LuChevronRight />
           </div>
           <div className="Filter-item">
-          <Link to="/Categories/shoes">Shoes</Link>
+            <Link to="/e-commerce/Categories/shoes">Shoes</Link>
             <LuChevronRight />
           </div>
           <div className="Filter-item">
-          <Link to="/Categories/gym">GYM</Link>
+            <Link to="/e-commerce/Categories/gym">GYM</Link>
             <LuChevronRight />
           </div>
         </>

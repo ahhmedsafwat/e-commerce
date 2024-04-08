@@ -7,7 +7,7 @@ import DropValue from "./dropDown";
 const Nav = () => {
   return (
     <div className="flex items-center small:justify-center relative">
-      <Link to={"/"}>
+      <Link to={"/e-commerce"}>
         <img className="medium:min-w-32 min-w-40" src={Logo} alt="Logo"></img>
       </Link>
 
