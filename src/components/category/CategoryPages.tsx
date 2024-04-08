@@ -5,6 +5,7 @@ import { LuArrowRight, LuArrowLeft } from "react-icons/lu";
 import ProductItem from "../Productitem/ProductItems";
 
 import { Product, useFetchData } from "../../helper/useFectchApi";
+import ProductSkeleton from "../loader/ProductSkeleton";
 
 interface Pageing {
   data: Product[] | undefined;
@@ -17,7 +18,7 @@ const Pages: React.FC = () => {
 
   const priceRange = useSelector((state: RootState) => state.price.priceRange);
 
-  const { fakeData, error } = useFetchData<Pageing>(
+  const { fakeData, error, isPending } = useFetchData<Pageing>(
     `http://localhost:8000/products?_page=${currentPage}&_per_page=${9}`,
     "categories",
     currentPage
@@ -60,6 +61,14 @@ const Pages: React.FC = () => {
 
   return (
     <>
+    {isPending && (
+        <div className="flex justify-between items-center py-16 xLarge:px-6 px-20 medium:px-8 medium:pt-28 small:pt-40">
+          <ProductSkeleton />
+          <ProductSkeleton />
+          <ProductSkeleton />
+          <ProductSkeleton />
+        </div>
+      )}
       <div className="grid xLarge:pl-[10px]">
         <ProductItem products={filteredProducts} className="w-64 xLarge:w-64 large:w-56" />
 
