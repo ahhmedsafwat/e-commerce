@@ -1,7 +1,7 @@
-
 import { Link } from "react-router-dom";
 import { Product, useFetchData } from "../../helper/useFectchApi";
 import { LuStar, LuStarHalf } from "react-icons/lu";
+import { useEffect } from "react";
 
 const FilteredProductItem: React.FC = () => {
   // Fetch product data
@@ -9,12 +9,17 @@ const FilteredProductItem: React.FC = () => {
     "http://localhost:8000/products",
     "FilteredProduct"
   );
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="grid grid-cols-4 large:grid-cols-3 medium:grid-cols-2 small:grid-cols-1 place-items-center pb-40">
       {fakeData?.map((product) => (
-        <div key={product.id} className="py-5 px-4 small:px-3 border rounded-lg m-4 w-64 xLarge:w-60 large:w-56 h-[420px] xLarge:h-96">
-          <Link to={`../products/${product.id}/${product.title}`}>
+        <div
+          key={product.id}
+          className="py-5 px-4 small:px-3 border rounded-lg m-4 w-64 xLarge:w-60 large:w-56 h-[420px] xLarge:h-96"
+        >
+          <Link to={`/e-commerce/products/${product.id}/${product.title}`}>
             <div className=" relative flex items-center justify-center mb-6  h-64 xLarge:h-56">
               <img
                 src={product.image.front}
