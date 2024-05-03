@@ -17,7 +17,7 @@ const Right = () => {
         designed to bring out your individuality and cater to your sense of
         style.
       </p>
-      <Link to="/e-commerce/Categories">
+      <Link to="/shop.co/Categories">
         <Button
           className="large:w-[45%] small:w-full bg-secondory text-primary hover:bg-primary hover:text-secondory large:mx-auto medium:mx-0"
           text="Shop Now"

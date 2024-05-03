@@ -16,7 +16,7 @@ const CartItem = () => {
       key={item.prodcut.id}
     >
       <Link
-        to={`/e-commerce/products/${item.prodcut.id}/${item.prodcut.title}`}
+        to={`/shop.co/products/${item.prodcut.id}/${item.prodcut.title}`}
         className="block"
       >
         <div className="flex">

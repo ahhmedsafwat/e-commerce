@@ -19,7 +19,7 @@ const FilteredProductItem: React.FC = () => {
           key={product.id}
           className="py-5 px-4 small:px-3 border rounded-lg m-4 w-64 xLarge:w-60 large:w-56 h-[420px] xLarge:h-96"
         >
-          <Link to={`/e-commerce/products/${product.id}/${product.title}`}>
+          <Link to={`/shop.co/products/${product.id}/${product.title}`}>
             <div className=" relative flex items-center justify-center mb-6  h-64 xLarge:h-56">
               <img
                 src={product.image.front}

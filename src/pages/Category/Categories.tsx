@@ -12,7 +12,7 @@ const Categories = () => {
   return (
     <>
       <div className="text-gray-500 font-satoshireguler flex items-center capitalize gap-1 px-24 large:px-10 medium:px-8">
-        <Link to={"/e-commerce"}>
+        <Link to={"/shop.co"}>
           <span className="cursor-pointer">Home</span>
         </Link>
         <LuChevronRight />

@@ -57,16 +57,16 @@ export const HamMenu = () => {
         }
       >
         <ul className={`p-2 ${shopClick ? "block w-[95%]" : "hidden"}`}>
-          <Link to="/e-commerce/Categories/casual">
+          <Link to="/shop.co/Categories/casual">
             <li className="shop-item">Casual</li>
           </Link>
-          <Link to="/e-commerce/Categories/jeans">
+          <Link to="/shop.co/Categories/jeans">
             <li className="shop-item">Jeans</li>
           </Link>
-          <Link to="/e-commerce/Categories/shoes">
+          <Link to="/shop.co/Categories/shoes">
             <li className="shop-item">Shoes</li>
           </Link>
-          <Link to="/e-commerce/Categories/gym">
+          <Link to="/shop.co/Categories/gym">
             <li className="shop-item">Gym</li>
           </Link>
         </ul>

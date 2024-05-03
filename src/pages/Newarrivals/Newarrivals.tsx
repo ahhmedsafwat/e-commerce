@@ -34,7 +34,7 @@ const NewArrivals = () => {
           <ProductItem products={fakeData} />
         </div>
       )}
-      <Link to={"/e-commerce/Categories"} className="w-fit block mx-auto">
+      <Link to={"/shop.co/Categories"} className="w-fit block mx-auto">
         <Button
           className="w-fit small:w-full mx-auto mt-6 py-4 px-20 small:py-2 border rounded-[62px] font-satoshi500 hover:text-white hover:bg-black "
           text={"view All"}

@@ -11,11 +11,7 @@ interface navLink {
 const Navitems = (props: navLink) => {
   return (
     <li className="list-none p-2 relative">
-      <Link
-        to={"/e-commerce"}
-        className={props.className}
-        onClick={props.onClick}
-      >
+      <Link to={"/shop.co"} className={props.className} onClick={props.onClick}>
         {props.link}
         {props.icon}
       </Link>

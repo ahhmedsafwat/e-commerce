@@ -44,16 +44,16 @@ const DropValue = () => {
           open ? "h-auto translate-y-2" : " invisible opacity-0"
         } transition duration-300`}
       >
-        <Link to={"/e-commerce/Categories/casual"}>
+        <Link to={"/shop.co/Categories/casual"}>
           <li className="dropdown-item">Casual</li>
         </Link>
-        <Link to={"/e-commerce/Categories/jeans"}>
+        <Link to={"/shop.co/Categories/jeans"}>
           <li className="dropdown-item">Jeans</li>
         </Link>
-        <Link to={"/e-commerce/Categories/shoes"}>
+        <Link to={"/shop.co/Categories/shoes"}>
           <li className="dropdown-item">Shoes</li>
         </Link>
-        <Link to={"/e-commerce/Categories/gym"}>
+        <Link to={"/shop.co/Categories/gym"}>
           <li className="dropdown-item">Gym</li>
         </Link>
       </ul>

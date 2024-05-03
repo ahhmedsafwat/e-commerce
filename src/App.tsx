@@ -27,16 +27,16 @@ const App = () => {
             <Offer />
             <Navbar />
             <Routes>
-              <Route path="/e-commerce" element={<Home />} />
-              <Route path="/e-commerce/cart" element={<Cart />} />
+              <Route path="/shop.co" element={<Home />} />
+              <Route path="/shop.co/cart" element={<Cart />} />
               {/* <Route path="/signup"  element={}> */}
               <Route
-                path={`/e-commerce/products/:id/*`}
+                path={`/shop.co/products/:id/*`}
                 element={<ProductDetails />}
               />
-              <Route path="/e-commerce/Categories/" element={<Categories />} />
+              <Route path="/shop.co/Categories/" element={<Categories />} />
               <Route
-                path="/e-commerce/Categories/:id"
+                path="/shop.co/Categories/:id"
                 element={<FilterdProductItem />}
               />
             </Routes>
